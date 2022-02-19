@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Oil 2
+  m_Shader: {fileID: -6465566751694194690, guid: 2074258d5aeef424f941ec24c4da56a9,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_d73bdf8c6473478e99d9900c3332956d:
+        m_Texture: {fileID: 2800000, guid: 4cc3c21df301076408a9f8c185d50090, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rainbow:
+        m_Texture: {fileID: 2800000, guid: 4cc3c21df301076408a9f8c185d50090, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_0307c841479a4a5ea67647357dc0c972: 0.18
+    - Vector1_0ea0cf757c06480097c6f437dbeab1cc: 134.32
+    - Vector1_9022df3676a94355bcb96f3210e55fdb: 0
+    - Vector1_9c825104c6b94ad0953ef45e7e465839: 10
+    - Vector1_ef95d81f122a4b8485b8a6494774447a: 50
+    - _Deepness: 0.45
+    - _FallOffAmount: 500
+    - _LightCutOff: -50
+    - _OilShape: 6.17
+    - _On: 1
+    - _Smoothness: 0.14
+    - _SpecularShape: 0.25
+    - _Speed: 0.02
+    m_Colors:
+    - Color_5249ebb1ed8244148db13db01dbfa986: {r: 1, g: 1, b: 1, a: 0}
+    - Color_81c2d124cccf42baa840d364662e72b4: {r: 0, g: 0, b: 0, a: 0}
+    - _Alpha: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 0.099, g: 0.099, b: 0.099, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

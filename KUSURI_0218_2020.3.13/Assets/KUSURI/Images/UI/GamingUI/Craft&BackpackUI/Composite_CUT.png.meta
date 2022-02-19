@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 4b904becaf24e8e48ae4bf2034d26262
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4486918225154716470
+    second: Composite_CUT_0
+  - first:
+      213: 5559640469450048934
+    second: Composite_CUT_1
+  - first:
+      213: 7604653554461550949
+    second: Composite_CUT_2
+  - first:
+      213: -3344646356302095642
+    second: Composite_CUT_3
+  - first:
+      213: 165013505727381094
+    second: Composite_CUT_4
+  - first:
+      213: 4553319463454356292
+    second: Composite_CUT_5
+  - first:
+      213: -4623664193077875704
+    second: Composite_CUT_6
+  - first:
+      213: 6457039558016991269
+    second: Composite_CUT_7
+  - first:
+      213: -6521046068392491252
+    second: Composite_CUT_8
+  - first:
+      213: 8563805752382564445
+    second: Composite_CUT_9
+  - first:
+      213: -1729751370375769743
+    second: Composite_CUT_10
+  - first:
+      213: -1313700135719810390
+    second: Composite_CUT_11
+  - first:
+      213: 1963061288671520269
+    second: Composite_CUT_12
+  - first:
+      213: -3968405824893257381
+    second: Composite_CUT_13
+  - first:
+      213: -7954834022601262731
+    second: Composite_CUT_14
+  - first:
+      213: -140109928802335749
+    second: Composite_CUT_15
+  - first:
+      213: -6806917432137568864
+    second: Composite_CUT_16
+  - first:
+      213: 3137705173598020003
+    second: Composite_CUT_17
+  - first:
+      213: 6201722468537643324
+    second: Composite_CUT_18
+  - first:
+      213: 8130140856655779587
+    second: Composite_CUT_19
+  - first:
+      213: 6048221129427394658
+    second: Composite_CUT_20
+  - first:
+      213: -805650152225721919
+    second: Composite_CUT_21
+  - first:
+      213: -805856489034195497
+    second: Composite_CUT_23
+  - first:
+      213: 4387336731585028736
+    second: Composite_CUT_24
+  - first:
+      213: -9105254104268517473
+    second: Composite_CUT_25
+  - first:
+      213: 6480159508617264162
+    second: Composite_CUT_26
+  - first:
+      213: 758170429503081509
+    second: Composite_CUT_27
+  - first:
+      213: -6185152082909403190
+    second: Composite_CUT_28
+  - first:
+      213: 4489212064185022592
+    second: Composite_CUT_29
+  - first:
+      213: 5541841720395254779
+    second: Composite_CUT_30
+  - first:
+      213: 5117799272114377954
+    second: Composite_CUT_31
+  - first:
+      213: 3040140720191451369
+    second: Composite_CUT_32
+  - first:
+      213: -7598246786885425218
+    second: Composite_CUT_33
+  - first:
+      213: 5320029077555193551
+    second: Composite_CUT_34
+  - first:
+      213: 40355612590752723
+    second: Composite_CUT_35
+  - first:
+      213: -3601912435665540154
+    second: Composite_CUT_36
+  - first:
+      213: -8554247512462945539
+    second: Composite_CUT_37
+  - first:
+      213: -9043179830124542529
+    second: Composite_CUT_38
+  - first:
+      213: 4399288077320197437
+    second: Composite_CUT_40
+  - first:
+      213: 3819204303588440148
+    second: Composite_CUT_42
+  - first:
+      213: 5420701712425253237
+    second: Composite_CUT_44
+  - first:
+      213: 8276320422353467591
+    second: Composite_CUT_46
+  - first:
+      213: 2364644319144414887
+    second: Composite_CUT_48
+  - first:
+      213: 1979342169038218196
+    second: Composite_CUT_22
+  - first:
+      213: -7768725001377675334
+    second: Composite_CUT_50
+  - first:
+      213: 8500665199588322819
+    second: Composite_CUT_51
+  - first:
+      213: -702430111338805388
+    second: Composite_CUT_52
+  - first:
+      213: 7210995114917481757
+    second: Composite_CUT_53
+  - first:
+      213: -1977635419498550700
+    second: Composite_CUT_54
+  - first:
+      213: 3936155926555237354
+    second: Composite_CUT_55
+  - first:
+      213: 2931392354727695477
+    second: Composite_CUT_56
+  - first:
+      213: 157870544458026567
+    second: Composite_CUT_57
+  - first:
+      213: 2239757399484381780
+    second: Composite_CUT_39
+  - first:
+      213: 4650248481151708998
+    second: Composite_CUT_41
+  - first:
+      213: 7454832724819021703
+    second: Composite_CUT_43
+  - first:
+      213: 4477553705677466404
+    second: Composite_CUT_45
+  - first:
+      213: 6404994468461554079
+    second: Composite_CUT_47
+  - first:
+      213: -2129273976844575952
+    second: Composite_CUT_49
+  - first:
+      213: 929132223516282042
+    second: Composite_CUT_58
+  - first:
+      213: -2248957627953364274
+    second: Composite_CUT_59
+  - first:
+      213: 3590812214732242621
+    second: Composite_CUT_60
+  - first:
+      213: 918943778197809704
+    second: Composite_CUT_61
+  - first:
+      213: -1365205738371967380
+    second: Composite_CUT_62
+  - first:
+      213: -4557846949778158135
+    second: Composite_CUT_63
+  - first:
+      213: -2897522653364922814
+    second: Composite_CUT_64
+  - first:
+      213: -1504781572507367642
+    second: Composite_CUT_65
+  - first:
+      213: 7756985529199282031
+    second: Composite_CUT_66
+  - first:
+      213: -4681069980327098919
+    second: Composite_CUT_67
+  - first:
+      213: 7004268232427290249
+    second: Composite_CUT_68
+  - first:
+      213: -9034320223355364310
+    second: Composite_CUT_69
+  - first:
+      213: 4516899839234014514
+    second: Composite_CUT_70
+  - first:
+      213: -3341617567607199812
+    second: Composite_CUT_71
+  - first:
+      213: 4800993354524334242
+    second: Composite_CUT_72
+  - first:
+      213: 7415596196130125091
+    second: Composite_CUT_73
+  - first:
+      213: -7908739945676763670
+    second: Composite_CUT_74
+  - first:
+      213: -5265073875927454452
+    second: Composite_CUT_75
+  - first:
+      213: -3575790479720328394
+    second: Composite_CUT_76
+  - first:
+      213: 986603926436220951
+    second: Composite_CUT_77
+  - first:
+      213: -5502931214392228608
+    second: Composite_CUT_78
+  - first:
+      213: -175379694746758748
+    second: Composite_CUT_79
+  - first:
+      213: 6375225382761218276
+    second: Composite_CUT_80
+  - first:
+      213: -946686795833832698
+    second: Composite_CUT_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Composite_CUT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4043
+        width: 2697
+        height: 1007
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc4d6d95a34bb1c0800000000000000
+      internalID: -4486918225154716470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_1
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 3298
+        width: 819
+        height: 1351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c47cfc8fc72d40800000000000000
+      internalID: 5559640469450048934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_2
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 4545
+        width: 370
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569a799dd18298960800000000000000
+      internalID: 7604653554461550949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_3
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 4545
+        width: 366
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea1f411cdd6591d0800000000000000
+      internalID: -3344646356302095642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_4
+      rect:
+        serializedVersion: 2
+        x: 5289
+        y: 4545
+        width: 366
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eb500c8ee3a4200800000000000000
+      internalID: 165013505727381094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_5
+      rect:
+        serializedVersion: 2
+        x: 5838
+        y: 4545
+        width: 371
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443b1107de3a03f30800000000000000
+      internalID: 4553319463454356292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_6
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 4545
+        width: 371
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c66e2e9e175dfb0800000000000000
+      internalID: -4623664193077875704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_7
+      rect:
+        serializedVersion: 2
+        x: 6943
+        y: 4545
+        width: 366
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5208f3464430c9950800000000000000
+      internalID: 6457039558016991269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_8
+      rect:
+        serializedVersion: 2
+        x: 7719
+        y: 3996
+        width: 580
+        height: 1018
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07028996279085a0800000000000000
+      internalID: -6521046068392491252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_9
+      rect:
+        serializedVersion: 2
+        x: 8761
+        y: 3957
+        width: 638
+        height: 1054
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58a53475ffb8d670800000000000000
+      internalID: 8563805752382564445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_10
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 3969
+        width: 368
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171d1031b40bef7e0800000000000000
+      internalID: -1729751370375769743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_11
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 3969
+        width: 365
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaac905dfacc4cde0800000000000000
+      internalID: -1313700135719810390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_12
+      rect:
+        serializedVersion: 2
+        x: 5290
+        y: 3969
+        width: 363
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06269f57d13e3b10800000000000000
+      internalID: 1963061288671520269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_13
+      rect:
+        serializedVersion: 2
+        x: 5839
+        y: 3969
+        width: 373
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5975a28de36de8c0800000000000000
+      internalID: -3968405824893257381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_14
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 3959
+        width: 370
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579f8ab5a90ca9190800000000000000
+      internalID: -7954834022601262731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_15
+      rect:
+        serializedVersion: 2
+        x: 6941
+        y: 3969
+        width: 367
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34b3813ca3e0ef0800000000000000
+      internalID: -140109928802335749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 292
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada60af8a8f881a0800000000000000
+      internalID: -6806917432137568864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_17
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 3709
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1273a2b3e5b8b20800000000000000
+      internalID: 3137705173598020003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_20
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 3724
+        width: 178
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260288682199fe350800000000000000
+      internalID: 6048221129427394658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_21
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 3750
+        width: 154
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1b85f7471c1d4f0800000000000000
+      internalID: -805650152225721919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_27
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 3386
+        width: 365
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c8cb91dff858a00800000000000000
+      internalID: 758170429503081509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_28
+      rect:
+        serializedVersion: 2
+        x: 4743
+        y: 3386
+        width: 364
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ea6073fce92aa0800000000000000
+      internalID: -6185152082909403190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_29
+      rect:
+        serializedVersion: 2
+        x: 5285
+        y: 3386
+        width: 366
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08875276692ec4e30800000000000000
+      internalID: 4489212064185022592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_30
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 3386
+        width: 369
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb4999cea398ec40800000000000000
+      internalID: 5541841720395254779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_31
+      rect:
+        serializedVersion: 2
+        x: 6397
+        y: 3386
+        width: 354
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4512e9253160740800000000000000
+      internalID: 5117799272114377954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_32
+      rect:
+        serializedVersion: 2
+        x: 6941
+        y: 3386
+        width: 360
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0363ea0efb03a20800000000000000
+      internalID: 3040140720191451369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3195
+        width: 1290
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7e0f7fdca9d8690800000000000000
+      internalID: -7598246786885425218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_34
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 3137
+        width: 293
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc62d62624a84d940800000000000000
+      internalID: 5320029077555193551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_35
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 2990
+        width: 578
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d34a21473f5f8000800000000000000
+      internalID: 40355612590752723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_36
+      rect:
+        serializedVersion: 2
+        x: 7724
+        y: 2599
+        width: 354
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe71839bf630ec0800000000000000
+      internalID: -3601912435665540154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_37
+      rect:
+        serializedVersion: 2
+        x: 8739
+        y: 2527
+        width: 348
+        height: 732
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df290e2b535394980800000000000000
+      internalID: -8554247512462945539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2795
+        width: 877
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb503797bdb208280800000000000000
+      internalID: -9043179830124542529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_40
+      rect:
+        serializedVersion: 2
+        x: 4745
+        y: 2795
+        width: 362
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d351849a2396d0d30800000000000000
+      internalID: 4399288077320197437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_42
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 2795
+        width: 369
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583800441a800530800000000000000
+      internalID: 3819204303588440148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_44
+      rect:
+        serializedVersion: 2
+        x: 6941
+        y: 2795
+        width: 367
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5797572cc733a3b40800000000000000
+      internalID: 5420701712425253237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_46
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2178
+        width: 607
+        height: 575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c870b503956bd270800000000000000
+      internalID: 8276320422353467591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_48
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 2172
+        width: 603
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae8fb6da77e0d020800000000000000
+      internalID: 2364644319144414887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_22
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 3724
+        width: 199
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3697a3739087b10800000000000000
+      internalID: 1979342169038218196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_50
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 2177
+        width: 607
+        height: 583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7003f85c1ff2490800000000000000
+      internalID: -7768725001377675334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_51
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 2219
+        width: 370
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eacf7e5fd68f570800000000000000
+      internalID: 8500665199588322819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_52
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 2219
+        width: 366
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477cc1e09877046f0800000000000000
+      internalID: -702430111338805388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_53
+      rect:
+        serializedVersion: 2
+        x: 5289
+        y: 2219
+        width: 366
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dcbbdf9d9921460800000000000000
+      internalID: 7210995114917481757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_54
+      rect:
+        serializedVersion: 2
+        x: 5838
+        y: 2219
+        width: 371
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aee8d50170e84e0800000000000000
+      internalID: -1977635419498550700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_55
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 2219
+        width: 371
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb9fd6e5f800a630800000000000000
+      internalID: 3936155926555237354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_56
+      rect:
+        serializedVersion: 2
+        x: 6943
+        y: 2219
+        width: 366
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57417d0c0d56ea820800000000000000
+      internalID: 2931392354727695477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_57
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1588
+        width: 576
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e0bea7c6ed03200800000000000000
+      internalID: 157870544458026567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_39
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 2796
+        width: 368
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab153fc77351f10800000000000000
+      internalID: 2239757399484381780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_41
+      rect:
+        serializedVersion: 2
+        x: 5290
+        y: 2795
+        width: 363
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fe8540b50098040800000000000000
+      internalID: 4650248481151708998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_43
+      rect:
+        serializedVersion: 2
+        x: 6393
+        y: 2795
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f8bc6add2e47760800000000000000
+      internalID: 7454832724819021703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_45
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2180
+        width: 576
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ba3a94f57732e30800000000000000
+      internalID: 4477553705677466404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_47
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2178
+        width: 601
+        height: 575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f992ef0b88c13e850800000000000000
+      internalID: 6404994468461554079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_18
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 3744
+        width: 218
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31bebc1ab1f01650800000000000000
+      internalID: 6201722468537643324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_23
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 3712
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd5c27fac501d4f0800000000000000
+      internalID: -805856489034195497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_49
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2175
+        width: 605
+        height: 581
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b12b4799c4372e0800000000000000
+      internalID: -2129273976844575952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_58
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1582
+        width: 609
+        height: 593
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc8e04a5d0f4ec00800000000000000
+      internalID: 929132223516282042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_59
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1586
+        width: 604
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec24feee3f81ac0e0800000000000000
+      internalID: -2248957627953364274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_60
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 1588
+        width: 604
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbebf323fa025d130800000000000000
+      internalID: 3590812214732242621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_61
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1588
+        width: 605
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a290c5f7eb0cc00800000000000000
+      internalID: 918943778197809704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_62
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1588
+        width: 607
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6693073d90dd0de0800000000000000
+      internalID: -1365205738371967380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_63
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 1636
+        width: 362
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd00e109564fb0c0800000000000000
+      internalID: -4557846949778158135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_64
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 1635
+        width: 365
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246598d9f7ee9c7d0800000000000000
+      internalID: -2897522653364922814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_65
+      rect:
+        serializedVersion: 2
+        x: 5290
+        y: 1631
+        width: 363
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627052ae121fd1be0800000000000000
+      internalID: -1504781572507367642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_66
+      rect:
+        serializedVersion: 2
+        x: 5839
+        y: 1631
+        width: 378
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67c4c39d3956ab60800000000000000
+      internalID: 7756985529199282031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_67
+      rect:
+        serializedVersion: 2
+        x: 6393
+        y: 1635
+        width: 365
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5cbdd77af790fb0800000000000000
+      internalID: -4681069980327098919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_68
+      rect:
+        serializedVersion: 2
+        x: 6935
+        y: 1631
+        width: 367
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eb161e8d8243160800000000000000
+      internalID: 7004268232427290249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_69
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 999
+        width: 578
+        height: 586
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c96cb6f95af9280800000000000000
+      internalID: -9034320223355364310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_70
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1001
+        width: 610
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dff83e8704fae30800000000000000
+      internalID: 4516899839234014514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_71
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 999
+        width: 606
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb76193e68030a1d0800000000000000
+      internalID: -3341617567607199812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_72
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 996
+        width: 605
+        height: 590
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a81f69e40e80a240800000000000000
+      internalID: 4800993354524334242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_73
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 998
+        width: 605
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325f21c637d79e660800000000000000
+      internalID: 7415596196130125091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_74
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 1001
+        width: 611
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed8ef4fbe28e3290800000000000000
+      internalID: -7908739945676763670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_75
+      rect:
+        serializedVersion: 2
+        x: 4403
+        y: 1019
+        width: 12
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0da7259433bee6b0800000000000000
+      internalID: -5265073875927454452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_76
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 412
+        width: 605
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633db09018d306ec0800000000000000
+      internalID: -3575790479720328394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_77
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 415
+        width: 581
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7109c393b0f11bd00800000000000000
+      internalID: 986603926436220951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_78
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 415
+        width: 613
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0050ebe5739a1a3b0800000000000000
+      internalID: -5502931214392228608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_79
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 412
+        width: 608
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a19dc9c81de09df0800000000000000
+      internalID: -175379694746758748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_80
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 412
+        width: 607
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0498e45b9597850800000000000000
+      internalID: 6375225382761218276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Composite_CUT_81
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 410
+        width: 610
+        height: 590
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b85ccff51bcd2f0800000000000000
+      internalID: -946686795833832698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 59bad1550670d274a9ae3846a00577ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameManager
+  - PickUp
+  - SavePoint
+  - DeadArea
+  - IKLookAt
+  - Light
+  - Ragdoll
+  - NextScene
+  - DisappearWall
+  - Cloud
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Camera
+  - Water
+  - UI
+  - DisappearWall
+  - ChangeCamera
+  - Ground
+  - PotionItem
+  - Player
+  - PlayerTrigger
+  - ItemPotionWall
+  - Poison
+  - Bone
+  - LeafSkin
+  - LeafBone
+  - ChangeCameraFollow
+  - uNature_Terrain
+  - Cant Walk
+  - Baking Light
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Particle
+    uniqueID: 2870967167
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ending
+    uniqueID: 559899363
+    locked: 0

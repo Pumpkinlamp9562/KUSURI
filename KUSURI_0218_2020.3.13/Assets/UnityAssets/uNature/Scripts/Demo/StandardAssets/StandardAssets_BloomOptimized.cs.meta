@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1a5570de43bc1024ebb8963cacf776f6
+timeCreated: 1492340538
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fastBloomShader: {fileID: 4800000, guid: 4dedb1d07f971af42bb2e056f7ecabd4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
