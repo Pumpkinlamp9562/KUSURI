@@ -10,7 +10,7 @@ public class Home_End : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (SaveSetting.ending)
+        if (Home_Tent.ending)
         {
             SetActive(true);
         }

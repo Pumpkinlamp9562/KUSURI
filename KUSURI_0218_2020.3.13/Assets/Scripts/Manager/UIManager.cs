@@ -152,7 +152,7 @@ public class UIManager : MonoBehaviour
     {
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Start_UI")
             return;
-        if (SaveSetting.ending && open)
+        if (PlayerPrefs.GetInt("ending", 0) == 1 && open)
         {
             open = false;
             return;
@@ -253,7 +253,7 @@ public class UIManager : MonoBehaviour
 
     void OpenBackpackUI(bool open)
     {
-        if (SaveSetting.ending && open)
+        if (Home_Tent.ending && open)
         {
             open = false;
             return;

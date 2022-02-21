@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Home_Tent : MonoBehaviour
 {
+    public static bool ending = false;
     [SerializeField] VideoControl video;
     [SerializeField] WhiteWallDisappear disappear;
     [SerializeField] GameObject goodParticle;
@@ -56,7 +57,8 @@ public class Home_Tent : MonoBehaviour
     IEnumerator Ending()
     {
         yield return new WaitForSeconds(endSeconds);
-        SaveSetting.ending = true;
+        PlayerPrefs.SetInt("ending", 1);
+        ending = true;
         manager.scenes.ChangeScene("Home");
     }
 }

@@ -20,4 +20,16 @@ public class GameManager : MonoBehaviour
     public BackpackUI ui;
     public UIManager uiSetting;
     public UINavigationSkip uiNav;
+
+    private void Awake()
+    {
+        if (PlayerPrefs.GetInt("ending", 0) == 1)
+        {
+            Home_Tent.ending = true;
+        }
+        else
+        {
+            Home_Tent.ending = false;
+        }
+    }
 }

@@ -32,7 +32,6 @@ public class JsonHelper
 }
 public class SaveSetting : MonoBehaviour 
 {
-    public static bool ending = false;
     public Vector3[] levelSpawnPoint;
     [Header("Save Setting")]
     public GameObject[] levelObjects;
@@ -140,8 +139,6 @@ public class SaveSetting : MonoBehaviour
             for (int i = 0; i < bloodData.bloodObjectsActive.Length; i++)
                 bloodData.bloodObjectsActive[i] = true;
         }
-
-        manager.player.transform.position = new Vector3(manager.save.data.x, manager.save.data.y, manager.save.data.z);
         manager.ui.UI_Update();
         levelSave.ReloadLevelObjects();
         whiteSave.WhiteBloodObjectsFindAtRuntime();
@@ -150,6 +147,11 @@ public class SaveSetting : MonoBehaviour
         if (manager.scenes.activeScene == "Start_UI")
         {
             startUI.GetComponent<StartUI>().loadButtonSet();
+            manager.player.transform.position = Vector3.zero;
+        }
+        else
+        {
+            manager.player.transform.position = new Vector3(manager.save.data.x, manager.save.data.y, manager.save.data.z);
         }
     }
 
@@ -199,7 +201,10 @@ public class SaveSetting : MonoBehaviour
 
     public void DeveloperResetData()
     {
-        if(lastSavePoint != null)
+        Debug.Log("Clear");
+        PlayerPrefs.SetInt("ending", 0);
+        Home_Tent.ending = false;
+        if (lastSavePoint != null)
         {
             data.x = lastSavePoint.transform.position.x;
             data.y = lastSavePoint.transform.position.y;

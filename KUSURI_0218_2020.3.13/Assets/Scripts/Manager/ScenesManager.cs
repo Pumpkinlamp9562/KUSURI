@@ -12,7 +12,6 @@ public class ScenesManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Debug.Log(SaveSetting.ending);
         //except Start UI Scene!!!!!!!!!!!!!!!!!!!!!!!!!
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         activeScene = SceneManager.GetActiveScene().name;
@@ -46,7 +45,7 @@ public class ScenesManager : MonoBehaviour
             }
         }
 
-        if((now.name == "Home" || next.name == "Home") && SaveSetting.ending)
+        if((now.name == "Home" || next.name == "Home") && Home_Tent.ending)
         {
             manager.save.Save(endingSpawnPoint);
             manager.save.LoadSave();
