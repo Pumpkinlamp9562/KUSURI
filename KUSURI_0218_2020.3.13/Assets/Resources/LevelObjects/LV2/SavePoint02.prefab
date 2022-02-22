@@ -12,14 +12,13 @@ GameObject:
   - component: {fileID: 1856416399}
   - component: {fileID: 1856416398}
   - component: {fileID: 1856416397}
-  - component: {fileID: 1856416396}
   - component: {fileID: 1856416395}
   m_Layer: 4
   m_Name: PoisonWater (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1856416394
 Transform:
@@ -62,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3d5af5cb078046145b93854ba9f80e20, type: 2}
+  - {fileID: 2100000, guid: 7322611265dae7c49817ff8be393f21a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,21 +96,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1856416396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856416393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cff28d04311e41a4ab0f50e3a7751137, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsPoison: 0
-  poisonInNeed: 1
-  poisonCount: 0
 --- !u!114 &1856416395
 MonoBehaviour:
   m_ObjectHideFlags: 0

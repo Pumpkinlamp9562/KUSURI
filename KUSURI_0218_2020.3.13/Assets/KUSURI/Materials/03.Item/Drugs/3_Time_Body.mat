@@ -70,6 +70,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -117,6 +121,7 @@ Material:
     m_Floats:
     - Vector1_1ed2a9d3150d45289fbcf60613f1652b: 3
     - Vector1_488fdc6ed8734337b00701d92e2092df: 0
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - Vector1_6a58685d7d2a4e45aab6d500517942de: 0
     - Vector1_89fa3a17508341c693a3f46816cca74b: 0
     - Vector1_c84afd70a93247f4a20067b4a70f6203: 3
@@ -132,6 +137,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear1: 1
     - _Dither: 2
     - _DitherOnOff: 0
     - _DstBlend: 0
@@ -141,7 +147,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Hue: 0
+    - _Hue: 17
     - _LightingCutoff: 0
     - _Metallic: 0
     - _NoiseOverlay: 1

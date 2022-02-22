@@ -95,8 +95,8 @@ Material:
     - _DitherOnOff: 0
     - _Falloff_Amount: 0.46
     - _FoamAmout: 3.63
-    - _FoamCutOff: 1.06
-    - _FoamScale: 5.4
+    - _FoamCutOff: 1.18
+    - _FoamScale: 6.69
     - _FoamSpeed: 0.02
     - _FresnelSize: 0.3
     - _Hue: 0
@@ -114,7 +114,7 @@ Material:
     - _Smoothness: 2
     - _TimeFactor: 2
     - _TotalPower: 8
-    - _WaterDepth: 4
+    - _WaterDepth: 15.48
     m_Colors:
     - Color_3422dfcbe5c447afb5bfd6620f23c29e: {r: 1, g: 1, b: 1, a: 1}
     - Color_76abeff900b1449fba62fc84e49838dc: {r: 1, g: 1, b: 1, a: 1}
@@ -128,18 +128,18 @@ Material:
         a: 1}
     - _BaseColor: {r: 1, g: 0.81761, b: 0.81761, a: 0}
     - _Color: {r: 0, g: 1, b: 0.7803922, a: 1}
-    - _DeepWater: {r: 0.5283019, g: 0.3340081, b: 0.15201138, a: 1}
+    - _DeepWater: {r: 1, g: 0.7531281, b: 0.4669811, a: 1}
     - _DepthColor: {r: 0.3679245, g: 0.22445707, b: 0.22445707, a: 1}
     - _DepthOffset: {r: 0, g: 0, b: 0, a: 0}
     - _DepthVector3: {r: -0.13, g: 0.12, b: -1.02, a: 0}
     - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - _FoamColor: {r: 0.51530796, g: 0.531614, b: 0.5660378, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
     - _Fresnel_Color: {r: 0.9575472, g: 0.9848174, b: 1, a: 0}
     - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Shadow_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowWater: {r: 1, g: 0.91239893, b: 0.8160377, a: 0}
+    - _ShallowWater: {r: 1, g: 0.7932661, b: 0.5613208, a: 0}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
     - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

@@ -153,7 +153,7 @@ Material:
     - _DitherOnOff: 0
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Falloff_Amount: 0.52
+    - _Falloff_Amount: 0.315
     - _FresnelSize: 0.75
     - _GlossMapScale: 0
     - _Glossiness: 0

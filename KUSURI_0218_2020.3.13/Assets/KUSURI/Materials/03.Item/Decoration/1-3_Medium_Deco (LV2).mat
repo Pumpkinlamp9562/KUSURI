@@ -70,6 +70,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -95,7 +99,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PatternTexture:
-        m_Texture: {fileID: 2800000, guid: 7453fdfc8716900498f127f6c3287aa9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -117,6 +121,7 @@ Material:
     m_Floats:
     - Vector1_1ed2a9d3150d45289fbcf60613f1652b: 3
     - Vector1_488fdc6ed8734337b00701d92e2092df: 0
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - Vector1_6a58685d7d2a4e45aab6d500517942de: 0
     - Vector1_89fa3a17508341c693a3f46816cca74b: 0
     - Vector1_c84afd70a93247f4a20067b4a70f6203: 3
@@ -132,6 +137,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear1: 1
     - _Dither: 2
     - _DitherOnOff: 0
     - _DstBlend: 0
@@ -173,7 +179,7 @@ Material:
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
-    - _ShadowColor: {r: 0.22761656, g: 0.28460062, b: 0.5188679, a: 1}
+    - _ShadowColor: {r: 0.6367924, g: 0.71041554, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
+    - _SpecularColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
   m_BuildTextureStacks: []
