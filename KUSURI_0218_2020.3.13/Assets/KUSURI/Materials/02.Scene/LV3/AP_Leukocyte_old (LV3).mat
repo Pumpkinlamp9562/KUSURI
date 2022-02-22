@@ -115,7 +115,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 1
+    - _Alpha: 0.99
     - _AlphaClip: 0
     - _Alphaclip: 0
     - _AmbientStrength: 0
@@ -124,11 +124,15 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _CloudFloat: 0
+    - _CloudPower: 0
+    - _CloudScale: 0.5
+    - _CloudSpeed: 0.01
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Disappear: 0.39
+    - _Disappear: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffAmount: 1

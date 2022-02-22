@@ -140,10 +140,15 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _CloudFloat: 0
+    - _CloudPower: 0
+    - _CloudScale: 0.5
+    - _CloudSpeed: 0.01
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear: 1
     - _Dither: 2
     - _DitherOnOff: 0
     - _DstBlend: 0

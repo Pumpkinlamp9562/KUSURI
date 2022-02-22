@@ -74,21 +74,6 @@ public class SaveSetting : MonoBehaviour
 
     }
 
-    //when game start
-    public void GameStartSaveSetting(bool start)
-    {
-        if (data.scenePlayed == "" && start)
-        {
-            manager.scenes.ChangeScene("LV1");
-        }
-        else if (data.scenePlayed != "" && !start)
-        {
-            manager.scenes.ChangeScene(data.scenePlayed);
-            manager.player.transform.position = new Vector3(data.x, data.y, data.z);
-            Debug.Log("Load Data");
-        }
-    }
-
     //LoadSave while GameStart
     public void LoadSave()
     {

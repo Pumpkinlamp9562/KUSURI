@@ -99,16 +99,16 @@ public class UIManager : MonoBehaviour
 
     public void FadeInOut(float target)
     {
-        fadeImage.GetComponent<UIFade>().FadeInOut(target, 0.01f);
+        fadeImage.GetComponent<UIFade>().FadeInOut(target);
     }
 
     public void FadeInOutUIBackground(float target)
     {
-        settingFade.GetComponent<UIFade>().FadeInOut(target, 0.01f);
+        settingFade.GetComponent<UIFade>().FadeInOut(target);
     }
     public void FadeInOutUIDead(float target)
     {
-        deadFade.GetComponent<UIFade>().FadeInOut(target, 0.01f);
+        deadFade.GetComponent<UIFade>().FadeInOut(target);
     }
 
     public void LoadingUI(float progress)
@@ -167,8 +167,10 @@ public class UIManager : MonoBehaviour
                     OpenBackpackUI(false);
                 if (settingON)
                     OpenSettingUI(false);
-                g.GetComponent<UIFade>().FadeInOut(1, 0.1f);
-                g.GetComponentInChildren<Text>().gameObject.GetComponent<UIFade>().FadeInOutText(1, 0.1f);
+                g.GetComponent<UIFade>().fadeSpeed = 0.1f;
+                g.GetComponent<UIFade>().FadeInOut(1);
+                g.GetComponentInChildren<Text>().gameObject.GetComponent<UIFade>().fadeSpeed = 0.1f;
+                g.GetComponentInChildren<Text>().gameObject.GetComponent<UIFade>().FadeInOutText(1);
                 if (manager.input.previousControlScheme == "Gamepad")
                 {
                     techUIMouse.SetActive(false);
@@ -196,8 +198,10 @@ public class UIManager : MonoBehaviour
                 {
                     manager.ui.itemButtons[i].gameObject.GetComponent<UIAnnotation>().annotationUI.SetActive(false);
                 }
-                g.GetComponent<UIFade>().FadeInOut(0, 0.1f);
-                g.GetComponentInChildren<Text>().gameObject.GetComponent<UIFade>().FadeInOutText(0, 0.1f);
+                g.GetComponent<UIFade>().fadeSpeed = 0.1f;
+                g.GetComponent<UIFade>().FadeInOut(0);
+                g.GetComponentInChildren<Text>().gameObject.GetComponent<UIFade>().fadeSpeed = 0.1f;
+                g.GetComponentInChildren<Text>().gameObject.GetComponent<UIFade>().FadeInOutText(0);
                 UICancelSeletion();
             }
         }

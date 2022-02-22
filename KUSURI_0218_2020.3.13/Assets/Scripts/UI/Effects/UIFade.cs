@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class UIFade : MonoBehaviour
 {
     [SerializeField]
     GameObject Object;
+    public float fadeSpeed = 0.01f;
     Image image;
     Button button;
     Text text;
+    public UnityEvent fadeInOut;
 
     private void Awake()
     {
@@ -20,7 +23,7 @@ public class UIFade : MonoBehaviour
         if (GetComponent<Button>() != null)
             button = GetComponent<Button>();
     }
-    public void FadeInOut(float target,float fadeSpeed)
+    public void FadeInOut(float target)
     {
         StopAllCoroutines();
         if (target != 0) image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
@@ -32,7 +35,7 @@ public class UIFade : MonoBehaviour
         StartCoroutine(FadeLerp(target, image, fadeSpeed));
     }
 
-    public void FadeInOutText(float target, float fadeSpeed)
+    public void FadeInOutText(float target)
     {
         StopAllCoroutines();
         if (target != 0) text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
@@ -58,6 +61,10 @@ public class UIFade : MonoBehaviour
                 fade.enabled = true;
                 if (button != null) button.enabled = true;
                 if (Object != null) Object.SetActive(true);
+            }
+            if(Mathf.Abs(fade.color.a - target) < 0.01f)
+            {
+                fadeInOut.Invoke();
             }
             yield return null;
         }
