@@ -107,7 +107,7 @@ Material:
     - _NoiseScale: 4.3
     - _Noise_Scale: 4
     - _Power: 1
-    - _RefractionScale: 0.24
+    - _RefractionScale: 1.02
     - _RefractionSpeed: 0.01
     - _RefractionStrength: 0.14
     - _Saturation: 1

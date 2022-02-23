@@ -186,7 +186,6 @@ public class SaveSetting : MonoBehaviour
 
     public void DeveloperResetData()
     {
-        Debug.Log("Clear");
         PlayerPrefs.SetInt("ending", 0);
         Home_Tent.ending = false;
         if (lastSavePoint != null)

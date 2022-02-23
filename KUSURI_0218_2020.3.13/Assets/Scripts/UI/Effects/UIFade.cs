@@ -62,7 +62,7 @@ public class UIFade : MonoBehaviour
                 if (button != null) button.enabled = true;
                 if (Object != null) Object.SetActive(true);
             }
-            if(Mathf.Abs(fade.color.a - target) < 0.01f)
+            if(Mathf.Abs(fade.color.a - target) < 0.01f && fadeInOut != null)
             {
                 fadeInOut.Invoke();
             }
