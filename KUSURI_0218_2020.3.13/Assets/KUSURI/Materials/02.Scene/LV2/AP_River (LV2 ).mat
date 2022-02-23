@@ -95,7 +95,7 @@ Material:
     - _DitherOnOff: 0
     - _Falloff_Amount: 0.46
     - _FoamAmout: 4.66
-    - _FoamCutOff: 1.43
+    - _FoamCutOff: 2.63
     - _FoamScale: 10.44
     - _FoamSpeed: 0.02
     - _FresnelSize: 0.3

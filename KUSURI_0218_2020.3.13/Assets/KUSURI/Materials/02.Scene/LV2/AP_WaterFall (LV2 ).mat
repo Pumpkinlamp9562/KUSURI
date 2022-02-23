@@ -80,10 +80,10 @@ Material:
     m_Floats:
     - Vector1_04f7e996a5154f5d8210d9d5f8d61c0b: 0
     - Vector1_078737ad9da244ee9dbf60bb9d9a73b2: 32.31
-    - Vector1_1: 2.85
+    - Vector1_1: 1.27
     - Vector1_1b11819c946e44f8a30b132d08b6dda6: 0
     - Vector1_1ed2a9d3150d45289fbcf60613f1652b: 1.5
-    - Vector1_1fa16df8122a433ca7202adbc64a68fc: 0.08
+    - Vector1_1fa16df8122a433ca7202adbc64a68fc: 0.02
     - Vector1_488fdc6ed8734337b00701d92e2092df: 0
     - Vector1_6a58685d7d2a4e45aab6d500517942de: 0.39
     - Vector1_89fa3a17508341c693a3f46816cca74b: 0
@@ -98,10 +98,10 @@ Material:
     - _Dither: 2
     - _DitherOnOff: 0
     - _Falloff_Amount: 0.46
-    - _FoamAmout: 12.26
+    - _FoamAmout: 2.29
     - _FoamCutOff: 2.55
     - _FoamScale: 1.2
-    - _FoamSpeed: 0.12
+    - _FoamSpeed: 0.06
     - _FresnelSize: 0.3
     - _Hue: 0
     - _LightingCutoff: 0
@@ -118,7 +118,7 @@ Material:
     - _Smoothness: 2
     - _TimeFactor: 2
     - _TotalPower: 8
-    - _WaterDepth: 2.45
+    - _WaterDepth: 1.1
     m_Colors:
     - Color_3422dfcbe5c447afb5bfd6620f23c29e: {r: 1, g: 1, b: 1, a: 1}
     - Color_76abeff900b1449fba62fc84e49838dc: {r: 1, g: 1, b: 1, a: 1}
