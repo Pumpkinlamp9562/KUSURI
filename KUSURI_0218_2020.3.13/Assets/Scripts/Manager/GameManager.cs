@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     public BackpackUI ui;
     public UIManager uiSetting;
     public UINavigationSkip uiNav;
+    [Header("Audio")]
+    public AudioClipManager audios;
 
     private void Awake()
     {

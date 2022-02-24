@@ -73,6 +73,11 @@ Material:
     - _AlphaClip: 0
     - _Alphaclip: 0
     - _Ambient_Strength: 0
+    - _CloudFloat: 0
+    - _CloudPower: 0
+    - _CloudScale: 0.5
+    - _CloudSpeed: 0.01
+    - _Disappear: 0.84
     - _Dither: 2
     - _DitherOffset: -0.49
     - _DitherOnOff: 0

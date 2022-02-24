@@ -39,7 +39,7 @@ Material:
     - Vector1_ac760354cb794b9bb4a123c94583a710: 0
     - Vector1_cc176abe5b0249d183d9f0a4a89da9c1: 0
     - _Clip: 0.91
-    - _Grow: 0.5
+    - _Grow: 1
     - _Metallic: 0
     - _Scale: -7.93
     - _Smoothness: 0
