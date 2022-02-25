@@ -12,6 +12,7 @@ public class PlayerManager : MonoBehaviour
     public PotionUse use;
     public Rigidbody rigid;
     public Renderer render;
+    public PlayerAudio audio;
     public enum State { lightBig, lightSmall, timeBig, timeSmall, scaleBig, scaleSmall };
     public List<State> potionState = new List<State>();
 

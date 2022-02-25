@@ -81,7 +81,6 @@ public class WhiteBloodCell : MonoBehaviour
                 gameObject.GetComponent<BoxCollider>().enabled = false;
         }else
         {//Add Disappear Shader IEnumerator
-            Debug.Log(GetComponentInChildren<WhiteBloodCore>());
             SetActiveCustom(gameObject, false);
             whiteBloodWall.GetComponent<WhiteWallDisappear>().WallsDisappear(false,true);
             Resources.UnloadUnusedAssets();

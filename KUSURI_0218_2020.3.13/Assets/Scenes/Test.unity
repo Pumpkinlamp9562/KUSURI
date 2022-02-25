@@ -8662,11 +8662,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6225383997597599134, guid: e2b6269a8d829444b81575e23ddc1765,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7688106579479791694, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -8689,64 +8684,18 @@ PrefabInstance:
       objectReference: {fileID: 741347366}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b6269a8d829444b81575e23ddc1765, type: 3}
---- !u!1 &1129962042 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 283054571700247174, guid: e2b6269a8d829444b81575e23ddc1765,
-    type: 3}
-  m_PrefabInstance: {fileID: 1129962041}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1129962043 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7688106579479791680, guid: e2b6269a8d829444b81575e23ddc1765,
-    type: 3}
-  m_PrefabInstance: {fileID: 1129962041}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1129962044
+--- !u!114 &1129962044 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6124306540758061554, guid: e2b6269a8d829444b81575e23ddc1765,
+    type: 3}
+  m_PrefabInstance: {fileID: 1129962041}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129962042}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a25bab398d932a042b19357aa8d1bf96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vfxAudio: {fileID: 1129962046}
-  footstep: {fileID: 8300000, guid: 2063db1e77538814ea438f2bbbd8949e, type: 3}
-  jump: {fileID: 8300000, guid: 9e531f5615a972445b8b972f2c41387e, type: 3}
-  throwPotion: {fileID: 0}
-  drinkPotion: {fileID: 0}
-  cell: {fileID: 0}
-  core: {fileID: 0}
-  grow: {fileID: 0}
-  small: {fileID: 0}
-  fire: {fileID: 0}
-  water: {fileID: 0}
-  mushroom: {fileID: 0}
-  openUI: {fileID: 0}
-  button: {fileID: 0}
-  crafting: {fileID: 0}
-  craftDone: {fileID: 0}
---- !u!114 &1129962045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129962043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ebee5e74ba1d542ae30f0a793652b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!82 &1129962046 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 6225383997597599134, guid: e2b6269a8d829444b81575e23ddc1765,
-    type: 3}
-  m_PrefabInstance: {fileID: 1129962041}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1136543525
 PrefabInstance:
   m_ObjectHideFlags: 0

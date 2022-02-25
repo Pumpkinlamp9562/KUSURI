@@ -832,6 +832,7 @@ GameObject:
   - component: {fileID: 1183390920036918026}
   - component: {fileID: 8788885066947646606}
   - component: {fileID: 109927309}
+  - component: {fileID: 4672608083879582762}
   m_Layer: 10
   m_Name: Player 2
   m_TagString: Player
@@ -899,6 +900,7 @@ MonoBehaviour:
   use: {fileID: 436922919507652275}
   rigid: {fileID: 1183390920036918026}
   render: {fileID: 1424646430724282275}
+  audio: {fileID: 4672608083879582762}
   potionState: 
 --- !u!114 &2066402448941999347
 MonoBehaviour:
@@ -1031,6 +1033,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066402448941999346}
   m_Mesh: {fileID: 4164511204261677510, guid: a23fbf643d002c1429af72f20cc97e55, type: 3}
+--- !u!114 &4672608083879582762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066402448941999346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ebee5e74ba1d542ae30f0a793652b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2253022322992590057
 GameObject:
   m_ObjectHideFlags: 0

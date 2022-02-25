@@ -13,11 +13,19 @@ public class PlayerAudio : MonoBehaviour
 
     public void FootStep()
     {
-        audio.vfxAudio.PlayOneShot(audio.footstep);
+        audio.vfxAudio.pitch = Random.Range(1,1.5f);
+        audio.vfxAudio.PlayOneShot(audio.footstep, audio.footstep_v);
     }
 
     public void JumpSound()
     {
-        audio.vfxAudio.PlayOneShot(audio.jump);
+        audio.vfxAudio.pitch = Random.Range(1, 1.5f);
+        audio.vfxAudio.PlayOneShot(audio.jump, audio.jump_v);
+    }
+
+    public void DrinkPotion()
+    {
+        audio.vfxAudio.pitch = Random.Range(1, 1.5f);
+        audio.vfxAudio.PlayOneShot(audio.drinkPotion, audio.drinkPotion_v);
     }
 }

@@ -17,6 +17,8 @@ public class PotionHit : MonoBehaviour
     {
         if (detectLayer == (detectLayer | (1 << other.gameObject.layer)) && other.tag != "IKLookAt")
         {
+            manager.audios.vfxAudio.pitch = Random.Range(1, 1.5f);
+            manager.audios.vfxAudio.PlayOneShot(manager.audios.throwPotion, manager.audios.throwPotion_v);
             if (other.GetComponent<ItemPotionUse>() != null)
                 OtherPotionSwitch(other.gameObject, true); //減少藥水庫存並成功使用藥水
             else
