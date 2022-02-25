@@ -121,6 +121,7 @@ Material:
     m_Floats:
     - Vector1_1ed2a9d3150d45289fbcf60613f1652b: 3
     - Vector1_488fdc6ed8734337b00701d92e2092df: 0
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - Vector1_6a58685d7d2a4e45aab6d500517942de: 0.1
     - Vector1_89fa3a17508341c693a3f46816cca74b: 0
     - Vector1_c84afd70a93247f4a20067b4a70f6203: 3
@@ -136,6 +137,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear1: 1
     - _Dither: 2
     - _DitherOnOff: 0
     - _DstBlend: 0
@@ -178,7 +180,7 @@ Material:
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.740566, g: 0.9432488, b: 1, a: 1}
-    - _ShadowColor: {r: 0.4521182, g: 0.4982285, b: 0.754717, a: 1}
+    - _ShadowColor: {r: 0.17697582, g: 0.24191912, b: 0.38679248, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5188679, g: 0.48705053, b: 0.48705053, a: 1}
   m_BuildTextureStacks: []

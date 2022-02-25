@@ -37,6 +37,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 02861684ba86f9247a095be34d2f1e5d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,16 +70,21 @@ Material:
     - Vector1_1b11819c946e44f8a30b132d08b6dda6: 0
     - Vector1_1ed2a9d3150d45289fbcf60613f1652b: 7
     - Vector1_488fdc6ed8734337b00701d92e2092df: 0.15
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - Vector1_6a58685d7d2a4e45aab6d500517942de: 0.07
     - Vector1_89fa3a17508341c693a3f46816cca74b: 0
     - Vector1_c84afd70a93247f4a20067b4a70f6203: 3
     - _Alpha: 0.37
     - _Alphaclip: 0
+    - _AmbientStrength: 0
+    - _Disappear1: 1
     - _Dither: 2
     - _DitherOnOff: 0
+    - _FalloffAmount: 1
     - _FresnelSize: 0.3
     - _Hue: 0
     - _LightingCutoff: 0
+    - _NoiseOverlay: 1
     - _NoiseScale: -18.5
     - _Saturation: 1
     - _Smoothness: 2
@@ -92,7 +101,9 @@ Material:
     - Color_cf5186203b3e456b8496d134c338d332: {r: 0.25858846, g: 0.35288212, b: 0.3679245,
         a: 0}
     - _BaseColor: {r: 1, g: 0.81761, b: 0.81761, a: 0}
+    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowColor: {r: 0.17697582, g: 0.24191912, b: 0.38679248, a: 1}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
