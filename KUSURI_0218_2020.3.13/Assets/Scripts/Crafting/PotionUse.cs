@@ -48,7 +48,7 @@ public class PotionUse : MonoBehaviour
     //potionUse_Player
     public void p_lightBig()
     {
-        player.audio.DrinkPotion();
+        player.audios.DrinkPotion();
         manager.ui.p_lightBig();
         //Player Burn Animation
         //Burn Shader
@@ -63,7 +63,7 @@ public class PotionUse : MonoBehaviour
     }
     public void p_lightSmall()
     {
-        player.audio.DrinkPotion();
+        player.audios.DrinkPotion();
         manager.ui.p_lightSmall();
 
         player.render.material.SetColor("_EmissionColor", playerEmissionColor);
@@ -75,7 +75,7 @@ public class PotionUse : MonoBehaviour
     }
     public void p_scaleBig()
     {
-        player.audio.DrinkPotion();
+        player.audios.DrinkPotion();
         manager.ui.p_scaleBig();
 
         player.rigid.mass = 5;
@@ -90,7 +90,7 @@ public class PotionUse : MonoBehaviour
     }
     public void p_scaleSmall()
     {
-        player.audio.DrinkPotion();
+        player.audios.DrinkPotion();
         manager.ui.p_scaleSmall();
         
         //float walkSpeed = 0.1f;
@@ -111,7 +111,7 @@ public class PotionUse : MonoBehaviour
     }
     public void p_timeBig()
     {
-        player.audio.DrinkPotion();
+        player.audios.DrinkPotion();
         manager.ui.p_timeBig();
 
         //move
@@ -129,7 +129,7 @@ public class PotionUse : MonoBehaviour
     }
     public void p_timeSmall()
     {
-        player.audio.DrinkPotion();
+        player.audios.DrinkPotion();
         manager.ui.p_timeSmall();
         //move
         player.move.walkSpeed = defaultSpeed / 2.5f;

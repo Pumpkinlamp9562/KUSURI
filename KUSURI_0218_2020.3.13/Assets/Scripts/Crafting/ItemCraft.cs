@@ -378,7 +378,11 @@ public class ItemCraft : MonoBehaviour
         while (manager.uiSetting.craftBubble.fillAmount != bubbleTarget)
         {
             if (bubbleTarget > 0.9f)
-                manager.uiSetting.craftAnim.SetBool("Play",true);
+            {
+                manager.uiSetting.craftAnim.SetBool("Play", true);
+                manager.audios.vfxAudio.pitch = 1;
+                manager.audios.vfxAudio.PlayOneShot(manager.audios.crafting, manager.audios.crafting_v);
+            }
             manager.uiSetting.craftBubble.fillAmount = Mathf.Lerp(manager.uiSetting.craftBubble.fillAmount, bubbleTarget, 0.1f);
             yield return null;
         }

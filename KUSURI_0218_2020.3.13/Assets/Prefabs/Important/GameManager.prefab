@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 7082656397386786923}
   - component: {fileID: 1231180399}
   - component: {fileID: 5471132411959902271}
-  - component: {fileID: 3186144129293705114}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -69,7 +68,7 @@ MonoBehaviour:
   ui: {fileID: 2088870930242407245}
   uiSetting: {fileID: 0}
   uiNav: {fileID: 1231180399}
-  audios: {fileID: 0}
+  audios: {fileID: 5471132411959902271}
 --- !u!114 &2088870930242407240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,131 +476,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a25bab398d932a042b19357aa8d1bf96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vfxAudio: {fileID: 3186144129293705114}
-  footstep: {fileID: 8300000, guid: 2063db1e77538814ea438f2bbbd8949e, type: 3}
-  footstep_v: 0.38
-  jump: {fileID: 8300000, guid: 9e531f5615a972445b8b972f2c41387e, type: 3}
+  vfxAudio: {fileID: 0}
+  pitchRandom: 1.5
+  footstep: {fileID: 8300000, guid: f6781fc8647f77a43a867cab45bbfa59, type: 3}
+  footstep_v: 0.194
+  jump: {fileID: 8300000, guid: 06e6bd963f80e3844991d37e3d0dc745, type: 3}
   jump_v: 1
   throwPotion: {fileID: 8300000, guid: 7a716f6531ce11f42b9a5685f117fa1d, type: 3}
   throwPotion_v: 1
   drinkPotion: {fileID: 8300000, guid: e9c134b9263aa45428a7261710ce9cba, type: 3}
   drinkPotion_v: 1
-  cell: {fileID: 0}
+  cell: {fileID: 8300000, guid: f464ba734fe37ca489affcb6f109cae7, type: 3}
   cell_v: 1
-  core: {fileID: 0}
+  core: {fileID: 8300000, guid: 1a99200fccf909541b144152873d79c3, type: 3}
   core_v: 1
-  grow: {fileID: 0}
-  grow_v: 1
-  small: {fileID: 0}
-  small_v: 1
-  fire: {fileID: 0}
+  grow_big: {fileID: 8300000, guid: 6b1c97cb3999d524d98e9e9c6676a60f, type: 3}
+  grow_big_v: 1
+  growBack_big: {fileID: 8300000, guid: 30f7274aa38c9ba46985c637f6effd8f, type: 3}
+  growBack_big_v: 1
+  grow_small: {fileID: 8300000, guid: b745974ef44977647b1def4a4d0886a3, type: 3}
+  grow_small_v: 1
+  growBack_small: {fileID: 8300000, guid: 52171c6d2a9000643bc1fd8360c39774, type: 3}
+  growBack_small_v: 1
+  fire: {fileID: 8300000, guid: 474a1f31cc3a5d74cb7ebc4d748499a7, type: 3}
   fire_v: 1
-  water: {fileID: 0}
+  water: {fileID: 8300000, guid: 5512cfbce5985494a98f141fcfc647e5, type: 3}
   water_v: 1
-  mushroom: {fileID: 0}
+  mushroom: {fileID: 8300000, guid: 00306e850d39e584a9c1d1425997f03f, type: 3}
   mushroom_v: 1
-  openUI: {fileID: 0}
+  openUI: {fileID: 8300000, guid: c6283d2898cc65d45b43052ee8364033, type: 3}
   openUI_v: 1
-  button: {fileID: 0}
+  button: {fileID: 8300000, guid: 1dac86f9776b5594fb7f59fef788e642, type: 3}
   button_v: 1
-  crafting: {fileID: 0}
+  crafting: {fileID: 8300000, guid: 5107628e4ddcfc84ca71b8163531c51b, type: 3}
   crafting_v: 1
-  craftDone: {fileID: 0}
+  craftDone: {fileID: 8300000, guid: 1e49142814becec41b086529c91ae815, type: 3}
   craftDone_v: 1
---- !u!82 &3186144129293705114
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088870930242407243}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -3003948271650669231, guid: 493ae36edf098924cae0ea5438245583,
-    type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4

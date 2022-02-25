@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GrowGroupControl : MonoBehaviour
 {
-    public float smooth = 0.1f;
+    [SerializeField] bool bigPlant;
+    [SerializeField] float smooth = 0.1f;
 /*    public Vector3 colliBigCenter;
     public Vector3 colliSizeBig;
 
@@ -20,9 +21,23 @@ public class GrowGroupControl : MonoBehaviour
 
     SkinnedMeshRenderer[] skin;
     List<PoisonItem> poison = new List<PoisonItem>();
+    GameManager manager;
+    AudioSource source;
 
     void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        //Add AudioSource
+        if (gameObject.GetComponent<AudioSource>() == null)
+            source = gameObject.AddComponent<AudioSource>();
+        else
+            source = gameObject.GetComponent<AudioSource>();
+        source.outputAudioMixerGroup = manager.audios.vfxAudio.outputAudioMixerGroup;
+        source.spatialBlend = manager.audios.vfxAudio.spatialBlend;
+        AnimationCurve curve = manager.audios.vfxAudio.GetCustomCurve(AudioSourceCurveType.CustomRolloff);
+        source.rolloffMode = AudioRolloffMode.Custom;
+        source.SetCustomCurve(AudioSourceCurveType.CustomRolloff, curve);
+        source.maxDistance = manager.audios.vfxAudio.maxDistance;
 
         skin = GetComponentsInChildren<SkinnedMeshRenderer>();
 
@@ -46,7 +61,11 @@ public class GrowGroupControl : MonoBehaviour
         {
             case Grow.grow:
                 StopAllCoroutines();
-                if(skin == null) //UV
+                if (bigPlant)//Play Audio
+                    source.PlayOneShot(manager.audios.grow_big, manager.audios.grow_big_v);
+                else
+                    source.PlayOneShot(manager.audios.grow_small, manager.audios.grow_small_v);
+                if (skin == null) //UV
                     for (int i = 0; i < growMeshes.Count; i++)
                         StartCoroutine(Growing(1, i));
                 else //ShapeKey
@@ -67,15 +86,33 @@ public class GrowGroupControl : MonoBehaviour
                 break;
             case Grow.normal:
                 StopAllCoroutines();
+
                 if (skin == null) //UV
                     for (int i = 0; i < growMeshes.Count; i++)
                         StartCoroutine(Growing(0.5f, i));
                 else //ShapeKey
                 {
+                    //Grow
                     for (int i = 0; i < skin.Length; i++)
                     {
                         StopAllCoroutines();
                         StartCoroutine(BlendShapeGrow(100, 0, i));
+                    }
+                    if (skin.Length != 1)
+                        return;
+                    if (skin[0].GetBlendShapeWeight(0) < 50)//Play Audio
+                    {
+                        if (bigPlant)
+                            source.PlayOneShot(manager.audios.grow_big, manager.audios.grow_big_v);
+                        else
+                            source.PlayOneShot(manager.audios.grow_small, manager.audios.grow_small_v);
+                    }
+                    else
+                    {
+                        if (bigPlant)
+                            source.PlayOneShot(manager.audios.growBack_big, manager.audios.growBack_big_v);
+                        else
+                            source.PlayOneShot(manager.audios.growBack_small, manager.audios.growBack_small_v);
                     }
                 }
                 StartCoroutine(Poison(true));
@@ -84,6 +121,10 @@ public class GrowGroupControl : MonoBehaviour
                 break;
             case Grow.minify:
                 StopAllCoroutines();
+                if (bigPlant)//Play Audio
+                    source.PlayOneShot(manager.audios.growBack_big, manager.audios.growBack_big_v);
+                else
+                    source.PlayOneShot(manager.audios.growBack_small, manager.audios.growBack_small_v);
                 if (skin == null) //UV
                     for (int i = 0; i < growMeshes.Count; i++)
                         StartCoroutine(Growing(0, i));

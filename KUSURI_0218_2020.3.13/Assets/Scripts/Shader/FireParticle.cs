@@ -5,10 +5,14 @@ using UnityEngine;
 public class FireParticle : MonoBehaviour
 {
     MeshFilter mesh;
-
+    AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
+        source = gameObject.GetComponent<AudioSource>();
+        AudioClipManager audios = GameObject.FindGameObjectWithTag("GameManager").GetComponent<AudioClipManager>();
+        source = audios.vfxAudio;
+        source.PlayOneShot(audios.fire, audios.fire_v);
         mesh = GetComponent<MeshFilter>();
         if(gameObject.transform.parent != null)
         {

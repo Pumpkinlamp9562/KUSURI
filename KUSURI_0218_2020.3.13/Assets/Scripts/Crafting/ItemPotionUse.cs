@@ -122,6 +122,7 @@ public class ItemPotionUse : MonoBehaviour
         //shader GrowUp
         if (control != null)
         {
+            control.StopAllCoroutines();
             control.grow = GrowGroupControl.Grow.grow;
             control.UsedGrow();
         }
@@ -139,6 +140,7 @@ public class ItemPotionUse : MonoBehaviour
         //shader GrowBack
         if (control != null)
         {
+            control.StopAllCoroutines();
             control.grow = GrowGroupControl.Grow.minify;
             control.UsedGrow();
         }

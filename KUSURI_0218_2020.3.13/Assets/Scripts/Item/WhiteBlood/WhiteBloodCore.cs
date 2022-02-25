@@ -7,9 +7,10 @@ public class WhiteBloodCore : MonoBehaviour
     public GameObject whiteBloodCell;
     public GameObject whiteBloodWall;
     Vector3 startPos;
-
+    GameManager manager;
     private void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         whiteBloodWall = whiteBloodCell.GetComponent<WhiteBloodCell>().whiteBloodWall;
         startPos = transform.position;
     }
@@ -22,6 +23,7 @@ public class WhiteBloodCore : MonoBehaviour
             {//Add Disappear Shader IEnumerator
                 SetActiveCustom(gameObject, false);
                 whiteBloodWall.GetComponent<WhiteWallDisappear>().WallsDisappear(false, true);
+                manager.audios.vfxAudio.PlayOneShot(manager.audios.core, manager.audios.core_v);
                 Resources.UnloadUnusedAssets();
             }
         }

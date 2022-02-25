@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2157411845613774627}
   - component: {fileID: 2157411845613774624}
-  - component: {fileID: 2157411845613774625}
   - component: {fileID: 2157411845613774638}
   - component: {fileID: 2157411845613774626}
   m_Layer: 3
@@ -77,14 +76,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &2157411845613774625
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2157411845613774639}
-  m_Enabled: 1
 --- !u!114 &2157411845613774638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,4 +146,6 @@ MonoBehaviour:
   playerInOtherFollowCamArea: 0
   followRotate: {x: 0, y: 0, z: 0, w: 0}
   followOffset: {x: 0, y: 0, z: 0}
+  whiteBloodCam: {fileID: 0}
+  wallDestoryed: 0
   restart: 0

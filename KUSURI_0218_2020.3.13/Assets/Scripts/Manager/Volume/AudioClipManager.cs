@@ -6,6 +6,8 @@ public class AudioClipManager : MonoBehaviour
 {
     [Header("SFX")]
     public AudioSource vfxAudio;
+    [Range(1,2)]
+    public float pitchRandom = 1.5f;
     [Header("Player")]
     public AudioClip footstep;
     [Range(0,1)]

@@ -97,6 +97,12 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void PlayButtonSound()
+    {
+        manager.audios.vfxAudio.pitch = 1;
+        manager.audios.vfxAudio.PlayOneShot(manager.audios.button, manager.audios.button_v);
+    }
+
     public void FadeInOut(float target)
     {
         fadeImage.GetComponent<UIFade>().FadeInOut(target);
@@ -163,6 +169,8 @@ public class UIManager : MonoBehaviour
         {
             if (open)
             {
+                manager.audios.vfxAudio.pitch = 1;
+                manager.audios.vfxAudio.PlayOneShot(manager.audios.openUI, manager.audios.openUI_v);
                 if (backpackON)
                     OpenBackpackUI(false);
                 if (settingON)
@@ -289,6 +297,8 @@ public class UIManager : MonoBehaviour
             }
             else
             {
+                manager.audios.vfxAudio.pitch = 1;
+                manager.audios.vfxAudio.PlayOneShot(manager.audios.openUI, manager.audios.openUI_v);
                 if (settingON)
                     OpenSettingUI(false);
                 if (craftON)

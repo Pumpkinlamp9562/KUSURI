@@ -2543,6 +2543,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &687086013150059378
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +2644,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &879096706958652625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,6 +3295,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2078879769429378233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3897,6 +3925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2868543543326778376}
   - component: {fileID: 2868543543326778377}
+  - component: {fileID: 2983523028586080607}
   m_Layer: 5
   m_Name: Sound_Slider
   m_TagString: Untagged
@@ -3977,7 +4006,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2868543543574969956}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingPanel, Assembly-CSharp
         m_MethodName: SetMusic
         m_Mode: 0
@@ -3989,6 +4018,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2983523028586080607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2868543543326778379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1b912e1054f094cbb5b4fee7ae07ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 493ae36edf098924cae0ea5438245583, type: 2}
+  slider: {fileID: 2868543543326778377}
+  volume: SFX_Volume
 --- !u!1 &2868543543440971869
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,7 +4115,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2868543543574969959}
-  - component: {fileID: 2868543543574969956}
   m_Layer: 5
   m_Name: Setting_Panel
   m_TagString: Untagged
@@ -4108,21 +4151,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2868543543574969956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2868543543574969958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d1b912e1054f094cbb5b4fee7ae07ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixer: {fileID: 0}
-  slider: {fileID: 0}
-  volume: BG_Volume
 --- !u!1 &2868543543663385349
 GameObject:
   m_ObjectHideFlags: 0
@@ -4257,6 +4285,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Start_UI
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2868543543778579998
@@ -4655,6 +4695,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &2868543544609141002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4665,6 +4717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2868543544609141003}
   - component: {fileID: 2868543544609141000}
+  - component: {fileID: 1644958910230929825}
   m_Layer: 5
   m_Name: Music_Slider
   m_TagString: Untagged
@@ -4745,7 +4798,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2868543543574969956}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingPanel, Assembly-CSharp
         m_MethodName: SetMusic
         m_Mode: 0
@@ -4757,6 +4810,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1644958910230929825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2868543544609141002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1b912e1054f094cbb5b4fee7ae07ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 493ae36edf098924cae0ea5438245583, type: 2}
+  slider: {fileID: 2868543544609141000}
+  volume: BG_Volume
 --- !u!1 &2868543544736252053
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,6 +5087,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: FadeInOutUIBackground
         m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5426,6 +5506,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2983202627051475515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5648,6 +5740,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3510755299347507157
 GameObject:
   m_ObjectHideFlags: 0
@@ -6051,6 +6147,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &5337290483093599131
 GameObject:
   m_ObjectHideFlags: 0
@@ -6363,6 +6471,18 @@ MonoBehaviour:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PotionUse, Assembly-CSharp
         m_MethodName: p_scaleBig
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6689,6 +6809,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345630445423924
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,6 +6914,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5640345630596605012
 GameObject:
   m_ObjectHideFlags: 0
@@ -6932,6 +7068,18 @@ MonoBehaviour:
           m_StringArgument: scalesmall
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: scalesmall
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345630670159797
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,6 +7173,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5640345630707406085
 GameObject:
   m_ObjectHideFlags: 0
@@ -7150,6 +7302,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7971327508341035417}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: BackpackUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7336,6 +7500,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5640345630727260640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7349,6 +7525,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &297129410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7455,6 +7635,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5640345630800826938
 GameObject:
   m_ObjectHideFlags: 0
@@ -7597,6 +7781,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: BackpackUI, Assembly-CSharp
         m_MethodName: ButtonOnClick
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: scalebig
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7781,6 +7977,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5640345630827600378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7794,6 +8002,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1700038639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8134,6 +8346,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345630985661361
 GameObject:
   m_ObjectHideFlags: 0
@@ -8284,6 +8508,18 @@ MonoBehaviour:
           m_StringArgument: lightsmall
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: lightsmall
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345630988673774
 GameObject:
   m_ObjectHideFlags: 0
@@ -8425,6 +8661,18 @@ MonoBehaviour:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PotionUse, Assembly-CSharp
         m_MethodName: p_lightBig
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8611,6 +8859,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5640345631010697563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8624,6 +8884,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1224452418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8732,6 +8996,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5640345631155237372
 GameObject:
   m_ObjectHideFlags: 0
@@ -8961,6 +9229,18 @@ MonoBehaviour:
           m_StringArgument: lightbig
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: lightbig
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345631280089399
 GameObject:
   m_ObjectHideFlags: 0
@@ -9056,6 +9336,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5640345631354985506
 GameObject:
   m_ObjectHideFlags: 0
@@ -9232,6 +9516,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5640345631354985507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9245,6 +9541,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1713639530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9592,6 +9892,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5640345631452958801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9605,6 +9917,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &185388771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10020,6 +10336,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5640345631781793854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10033,6 +10361,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &698737065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10275,6 +10607,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345631904531026
 GameObject:
   m_ObjectHideFlags: 0
@@ -10417,6 +10761,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: BackpackUI, Assembly-CSharp
         m_MethodName: ButtonOnClick
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: timesmall
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10732,6 +11088,18 @@ MonoBehaviour:
           m_StringArgument: timebig
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: timebig
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345632098331170
 GameObject:
   m_ObjectHideFlags: 0
@@ -10961,6 +11329,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7971327508341035417}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: PlayButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5640345632123710295
 GameObject:
   m_ObjectHideFlags: 0
@@ -11054,6 +11434,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5718559335851657425
 GameObject:
   m_ObjectHideFlags: 0
@@ -11690,6 +12074,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 0}
+  fadeSpeed: 0.01
+  fadeInOut:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7138762119860564849
 GameObject:
   m_ObjectHideFlags: 0

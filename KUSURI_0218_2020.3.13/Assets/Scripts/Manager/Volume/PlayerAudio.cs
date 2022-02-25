@@ -4,28 +4,31 @@ using UnityEngine;
 
 public class PlayerAudio : MonoBehaviour
 {
-    AudioClipManager audio;
+    GameManager manager;
     // Start is called before the first frame update
     void Start()
     {
-        audio = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().audios;
+        manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
     }
 
     public void FootStep()
     {
-        audio.vfxAudio.pitch = Random.Range(1,1.5f);
-        audio.vfxAudio.PlayOneShot(audio.footstep, audio.footstep_v);
+        if (manager.player.move.grounded)
+        {
+            manager.audios.vfxAudio.pitch = Random.Range(1, manager.audios.pitchRandom);
+            manager.audios.vfxAudio.PlayOneShot(manager.audios.footstep, manager.audios.footstep_v);
+        }
     }
 
     public void JumpSound()
     {
-        audio.vfxAudio.pitch = Random.Range(1, 1.5f);
-        audio.vfxAudio.PlayOneShot(audio.jump, audio.jump_v);
+        manager.audios.vfxAudio.pitch = Random.Range(1, manager.audios.pitchRandom);
+        manager.audios.vfxAudio.PlayOneShot(manager.audios.jump, manager.audios.jump_v);
     }
 
     public void DrinkPotion()
     {
-        audio.vfxAudio.pitch = Random.Range(1, 1.5f);
-        audio.vfxAudio.PlayOneShot(audio.drinkPotion, audio.drinkPotion_v);
+        manager.audios.vfxAudio.pitch = Random.Range(1, manager.audios.pitchRandom);
+        manager.audios.vfxAudio.PlayOneShot(manager.audios.drinkPotion, manager.audios.drinkPotion_v);
     }
 }

@@ -11,10 +11,12 @@ public class WhiteBloodCell : MonoBehaviour
     public Collider[] bone;
 
     float totalWeight;
+    GameManager manager;
 
     private void Start()
     {
         bone = gameObject.GetComponentsInChildren<CapsuleCollider>();
+        manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
     }
 
     private void OnCollisionStay(Collision collision)
@@ -57,6 +59,7 @@ public class WhiteBloodCell : MonoBehaviour
 
     public void DestoryAndHaveChlid()
     {
+        manager.audios.vfxAudio.PlayOneShot(manager.audios.cell, manager.audios.cell_v);
         if (GetComponentInChildren<WhiteBloodCore>() != null)
         {//Add Disappear Shader IEnumerator
             foreach (CapsuleCollider c in bone)

@@ -19,6 +19,8 @@ public class CraftPoition : MonoBehaviour
         {
             manager.uiSetting.potion.sprite = manager.craft.craftPotion;
             manager.uiSetting.potion.color = new Color(1, 1, 1, 1);
+            manager.audios.vfxAudio.pitch = 1;
+            manager.audios.vfxAudio.PlayOneShot(manager.audios.craftDone, manager.audios.craftDone_v);
         }
     }
 }
