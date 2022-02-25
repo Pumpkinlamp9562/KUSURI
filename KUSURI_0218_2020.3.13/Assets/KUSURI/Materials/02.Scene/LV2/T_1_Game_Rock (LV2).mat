@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Map:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 16dc664aceecfbc479fecc8846620dfc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -111,7 +111,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Pattern_Texture:
-        m_Texture: {fileID: 2800000, guid: ae0a50d986598ac4892662b3060a37f4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -151,6 +151,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear1: 1
     - _Dither: 2
     - _DitherOnOff: 0
     - _DstBlend: 0
@@ -192,15 +193,15 @@ Material:
     - Color_cf5186203b3e456b8496d134c338d332: {r: 0.9150943, g: 0.7345278, b: 0.41869882,
         a: 0}
     - _BaseColor: {r: 1, g: 0.9800798, b: 0.6761006, a: 1}
-    - _Base_Color: {r: 0.6666667, g: 1, b: 0.8870937, a: 0}
+    - _Base_Color: {r: 0.6666667, g: 1, b: 0.9368432, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _EmissionColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.740566, g: 0.9432488, b: 1, a: 1}
     - _Fresnel_Color: {r: 1, g: 1, b: 1, a: 0}
     - _ShadowColor: {r: 0.4521182, g: 0.4982285, b: 0.754717, a: 1}
-    - _Shadow_Color: {r: 0.03622286, g: 0.1222209, b: 0.2075472, a: 1}
+    - _Shadow_Color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5188679, g: 0.48705053, b: 0.48705053, a: 1}
     - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}

@@ -37,6 +37,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: cf0b4e9bc6e1ff04ba0e2656dfdd2653, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,6 +70,7 @@ Material:
     - Vector1_1b11819c946e44f8a30b132d08b6dda6: 0
     - Vector1_1ed2a9d3150d45289fbcf60613f1652b: 3
     - Vector1_488fdc6ed8734337b00701d92e2092df: 0
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - Vector1_6a58685d7d2a4e45aab6d500517942de: 0.1
     - Vector1_89fa3a17508341c693a3f46816cca74b: 0
     - Vector1_c84afd70a93247f4a20067b4a70f6203: 44.13
@@ -73,6 +78,7 @@ Material:
     - _Alphaclip: 0
     - _AmbientStrength: 0
     - _DepthOffset: 0.13
+    - _Disappear1: 1
     - _Dither: 2
     - _DitherOnOff: 0
     - _FalloffAmount: 1
@@ -98,9 +104,9 @@ Material:
     - _DepthColor: {r: 0.3679245, g: 0.22445707, b: 0.22445707, a: 1}
     - _DepthOffset: {r: 0, g: 0, b: 0, a: 0}
     - _DepthVector3: {r: -0.13, g: 0.12, b: -1.02, a: 0}
-    - _DiffuseColor: {r: 0.28235295, g: 0.3647059, b: 0.3921569, a: 0}
+    - _DiffuseColor: {r: 0.056870773, g: 0.14190835, b: 0.16981131, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
-    - _ShadowColor: {r: 0.5257654, g: 0.73285645, b: 0.8018868, a: 1}
+    - _ShadowColor: {r: 0.27127093, g: 0.44235566, b: 0.4528302, a: 1}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
