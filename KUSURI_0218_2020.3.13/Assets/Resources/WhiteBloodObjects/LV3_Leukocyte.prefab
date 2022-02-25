@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 79853650}
   - component: {fileID: 79853649}
   - component: {fileID: 79853648}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: Leukocyte_Oil (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 895572784}
   - component: {fileID: 895572783}
   - component: {fileID: 895572782}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: Leukocyte_Oil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 4052049304070670999}
   - component: {fileID: 4052049304070671076}
   - component: {fileID: 93829334239273377}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000013038516, y: 0.6162307, z: -0.00000013840936}
+  m_ConnectedAnchor: {x: -0.00000078976154, y: 0.6162304, z: 0.0000003421531}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 9159962112256760692}
   - component: {fileID: 9159962112256760677}
   - component: {fileID: 385758868221307939}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 9159962112256760683}
   - component: {fileID: 9159962112256760603}
   - component: {fileID: 2303550835570226942}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 9159962112256760693}
   - component: {fileID: 9159962112256760679}
   - component: {fileID: 2753183291395055586}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 9159962112256760680}
   - component: {fileID: 9159962112256760605}
   - component: {fileID: 3322904146756897444}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 9159962112256760681}
   - component: {fileID: 9159962112256760607}
   - component: {fileID: 3396491974958475136}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 3817553361940346456}
   - component: {fileID: 3817553361940346457}
   - component: {fileID: 3817553361940346790}
-  m_Layer: 19
+  m_Layer: 9
   m_Name: LV3_Leukocyte_bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,6 +1206,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 164f67f4ca46eac409436a4ad221e2f9, type: 2}
+  - {fileID: 2100000, guid: 48a80ad8907ba4a4cbdf09948d26ddef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1345,14 +1346,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4052049305385828573}
-  m_LocalRotation: {x: 0.018895527, y: -0.9402369, z: -0.031202033, w: -0.33856174}
-  m_LocalPosition: {x: -0.88, y: 4.36, z: 33.78}
-  m_LocalScale: {x: 1.2068491, y: 1.206849, z: 1.2068492}
+  m_LocalRotation: {x: 0.13967285, y: -0.93357575, z: -0.153916, w: -0.29195505}
+  m_LocalPosition: {x: 5.0844517, y: 2.1172183, z: 28.330296}
+  m_LocalScale: {x: 0.96470684, y: 0.9647068, z: 0.96470696}
   m_Children:
   - {fileID: 4589585984684633373}
   m_Father: {fileID: 8641287681321433618}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -4.098, y: 140.424, z: -0.827}
+  m_LocalEulerAnglesHint: {x: -21.65, y: 147.3, z: -10.596}
 --- !u!136 &4052049305390817777
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1380,7 +1381,7 @@ GameObject:
   - component: {fileID: 561692784017003604}
   - component: {fileID: 8730958517185297649}
   - component: {fileID: 5316918219947528952}
-  m_Layer: 19
+  m_Layer: 9
   m_Name: LV3_Leukocyte_Nucleus (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1495,7 +1496,7 @@ GameObject:
   - component: {fileID: 4052049304070670985}
   - component: {fileID: 4052049304070671000}
   - component: {fileID: 4791550695118487006}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1560,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000040838498, y: 0.83450377, z: 0.00000024586916}
+  m_ConnectedAnchor: {x: 0.00000008521601, y: 0.83450377, z: 0.00000006100163}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -1648,7 +1649,7 @@ GameObject:
   - component: {fileID: 9159962112256760682}
   - component: {fileID: 9159962112256760601}
   - component: {fileID: 5073345755248226396}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1801,7 +1802,7 @@ GameObject:
   - component: {fileID: 4052049304070670998}
   - component: {fileID: 4052049304070671078}
   - component: {fileID: 6400361752045692675}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1865,7 +1866,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000088242814, y: 0.6868408, z: -0.0000007911585}
+  m_ConnectedAnchor: {x: -0.00000046985224, y: 0.68684053, z: 0.00000024633482}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -1954,7 +1955,7 @@ GameObject:
   - component: {fileID: 4052049304070670984}
   - component: {fileID: 4052049304070671002}
   - component: {fileID: 6994153718937357855}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2018,7 +2019,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000007408297, y: -3.16, z: -0.0014731273}
+  m_ConnectedAnchor: {x: 0.00000024714097, y: -3.16, z: -0.0014727747}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -2107,7 +2108,7 @@ GameObject:
   - component: {fileID: 4052049304070670996}
   - component: {fileID: 4052049304070671074}
   - component: {fileID: 7496170289026627197}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2171,7 +2172,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000044703484, y: 0.6419069, z: 0.000000050982944}
+  m_ConnectedAnchor: {x: 0.00000033527613, y: 0.6419073, z: -0.000000023522862}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -2260,7 +2261,7 @@ GameObject:
   - component: {fileID: 4052049304070670997}
   - component: {fileID: 4052049304070671072}
   - component: {fileID: 7581862657675205465}
-  m_Layer: 19
+  m_Layer: 14
   m_Name: LV3_joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2325,7 +2326,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000008819625, y: 0.4880183, z: -0.0000007019802}
+  m_ConnectedAnchor: {x: 0.00000029616058, y: 0.48801807, z: -0.0000002400442}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -2416,7 +2417,7 @@ GameObject:
   - component: {fileID: 8349621841326040997}
   - component: {fileID: 8349621841326040996}
   - component: {fileID: 8349621841326040667}
-  m_Layer: 19
+  m_Layer: 9
   m_Name: LV3_Leukocyte_bone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2583,7 +2584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8641287681321433618}
   - component: {fileID: 8959949106406402882}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: LV3_Leukocyte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2671,7 +2672,7 @@ GameObject:
   - component: {fileID: 4678946175144052137}
   - component: {fileID: 4472044599838878988}
   - component: {fileID: 1075235160563106565}
-  m_Layer: 19
+  m_Layer: 9
   m_Name: LV3_Leukocyte_Nucleus
   m_TagString: Untagged
   m_Icon: {fileID: 0}

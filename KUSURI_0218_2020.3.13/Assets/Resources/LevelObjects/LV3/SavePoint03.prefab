@@ -200,6 +200,100 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.001528794, y: -0.0010523894, z: 0.0069516744}
     m_Extent: {x: 0.0100923255, y: 0.010490462, z: 0.0070097647}
   m_DirtyAABB: 0
+--- !u!1 &264108977600694817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1490155246513825580}
+  - component: {fileID: 7039710585766886895}
+  - component: {fileID: 3943248456238622504}
+  - component: {fileID: 6227644266662369296}
+  m_Layer: 13
+  m_Name: Poison (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1490155246513825580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264108977600694817}
+  m_LocalRotation: {x: -0.27857333, y: -0.115741104, z: -0.6022234, w: 0.73914003}
+  m_LocalPosition: {x: -0.00071, y: -0.00023, z: 0.00609}
+  m_LocalScale: {x: 0.0024041084, y: 0.0024041086, z: 0.0024041086}
+  m_Children: []
+  m_Father: {fileID: 861524556551043091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7039710585766886895
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264108977600694817}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3943248456238622504
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264108977600694817}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b9023d83ee628a04bbf1c6712d9b3a68, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6227644266662369296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264108977600694817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04added6ba60c8c48a928b8279c78c19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &940907794942128918
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e696de9ed3f224d9caae38965d9091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bigPlant: 0
   smooth: 0.1
   grow: 1
 --- !u!64 &940907795409118500
@@ -393,6 +488,142 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2494185979427425891, guid: d7d39de5202f07b46bd7cce690b5a94d, type: 3}
+--- !u!1 &4268978485793999317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861524556551043091}
+  - component: {fileID: 5646486329908164249}
+  - component: {fileID: 4476428617246089068}
+  - component: {fileID: 1541187957806938307}
+  - component: {fileID: 8082687963746876279}
+  m_Layer: 9
+  m_Name: Poison_Flower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &861524556551043091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268978485793999317}
+  m_LocalRotation: {x: 0.4074545, y: -0.2651482, z: 0.5768775, w: -0.65642184}
+  m_LocalPosition: {x: 4.9, y: 7, z: 65.35}
+  m_LocalScale: {x: 295.10165, y: 295.10153, z: 295.10132}
+  m_Children:
+  - {fileID: 1490155246513825580}
+  - {fileID: 4966989881160987246}
+  m_Father: {fileID: 7463235265016789739}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -13.239, y: 417.197, z: -89.86}
+--- !u!137 &5646486329908164249
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268978485793999317}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5138f97e0183e940b01a2ec82f92900, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 5276913621010101745, guid: dcfe0fce5d9c6824bb8b4fe03451c042, type: 3}
+  m_Bones: []
+  m_BlendShapeWeights:
+  - 100
+  - 0
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0.001528794, y: -0.0010523894, z: 0.0069516744}
+    m_Extent: {x: 0.0100923255, y: 0.010490462, z: 0.0070097647}
+  m_DirtyAABB: 0
+--- !u!64 &4476428617246089068
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268978485793999317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5276913621010101745, guid: dcfe0fce5d9c6824bb8b4fe03451c042, type: 3}
+--- !u!114 &1541187957806938307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268978485793999317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d92ec85a614abe84bb55dc747e706e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantDestory: 0
+  canBurn: 0
+  potionTime: 5
+  emisstion: {r: 255, g: 255, b: 255, a: 0.7}
+  render: []
+--- !u!114 &8082687963746876279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268978485793999317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e696de9ed3f224d9caae38965d9091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bigPlant: 0
+  smooth: 0.1
+  grow: 0
 --- !u!1 &7463235262925031727
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +829,88 @@ Transform:
   - {fileID: 709577365790150775}
   - {fileID: 940907795409118496}
   - {fileID: 1133381363}
+  - {fileID: 861524556551043091}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8246767815214158435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4966989881160987246}
+  - component: {fileID: 7827620136353327415}
+  - component: {fileID: 1623501897974274787}
+  m_Layer: 9
+  m_Name: Poison_Flower_Stem 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966989881160987246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246767815214158435}
+  m_LocalRotation: {x: -0.36502278, y: -0.37062657, z: -0.6937428, w: 0.49811175}
+  m_LocalPosition: {x: -0.06473, y: -0.00736, z: -0.01902}
+  m_LocalScale: {x: 0.00780542, y: 0.0078054173, z: 0.0078054187}
+  m_Children: []
+  m_Father: {fileID: 861524556551043091}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.354, y: -175.486, z: -16.66}
+--- !u!33 &7827620136353327415
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246767815214158435}
+  m_Mesh: {fileID: 7451321606154814828, guid: 1767d1b99b0aec04298cae11fe5a6172, type: 3}
+--- !u!23 &1623501897974274787
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246767815214158435}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5138f97e0183e940b01a2ec82f92900, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
