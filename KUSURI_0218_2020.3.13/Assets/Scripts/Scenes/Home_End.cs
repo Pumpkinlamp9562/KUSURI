@@ -6,7 +6,6 @@ public class Home_End : MonoBehaviour
 {
     [SerializeField] GameObject[] activeObjects;
     [SerializeField] GameObject[] inactiveObjects;
-    [SerializeField] GameManager manager;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,11 +29,5 @@ public class Home_End : MonoBehaviour
         {
             inactiveObjects[i].SetActive(!tf);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

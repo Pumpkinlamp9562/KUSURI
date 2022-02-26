@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class BackpackUI : MonoBehaviour
 {
     public GameObject currentSelected;
-    public ItemScriptableObjects[] item;//useless
     public Button[] itemButtons;
     public Text[] itemUI = new Text[18];
 

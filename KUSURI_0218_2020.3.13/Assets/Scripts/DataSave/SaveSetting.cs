@@ -48,7 +48,6 @@ public class SaveSetting : MonoBehaviour
     public LevelObjectsSave levelSave;
     [Header("Other")]
     public GameObject startUI;
-    public Button loadButton;
     public GameObject lastSavePoint;
     GameManager manager;
 
@@ -188,18 +187,9 @@ public class SaveSetting : MonoBehaviour
     {
         PlayerPrefs.SetInt("ending", 0);
         Home_Tent.ending = false;
-        if (lastSavePoint != null)
-        {
-            data.x = lastSavePoint.transform.position.x;
-            data.y = lastSavePoint.transform.position.y;
-            data.z = lastSavePoint.transform.position.z;
-        }
-        else
-        {
-            data.x = -7f;
-            data.y = -0.6f;
-            data.z = -37f;
-        }
+        data.x = -7f;
+        data.y = -0.6f;
+        data.z = -37f;
 
         //material
         backpack.lightHerb = 0;
