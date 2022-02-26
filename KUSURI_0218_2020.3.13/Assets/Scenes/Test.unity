@@ -8732,6 +8732,11 @@ PrefabInstance:
       propertyPath: audios
       value: 
       objectReference: {fileID: 1129962044}
+    - target: {fileID: 958230911207337116, guid: e2b6269a8d829444b81575e23ddc1765,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1972824888608990006, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
       propertyPath: m_FillAmount

@@ -10,12 +10,6 @@ public class PlayerAnimation : MonoBehaviour
     public float deceleration;
     public float maximumWalkVelocity = 0.5f;
     public float maximumRunVelocity = 2.0f;
-    [SerializeField]
-    GameObject rightHand;
-    [SerializeField]
-    GameObject leftHand;
-    [SerializeField]
-    GameObject normalLookAt;
 
     [HideInInspector]
     public Animator anim;

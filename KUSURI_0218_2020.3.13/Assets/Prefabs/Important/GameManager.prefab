@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInput: {fileID: 7082656397386786923}
-  gamepadSensitive: 0.7
+  gamepadSensitive: 0.6
   cursorSpeed: 2000
   move: {x: 0, y: 0}
   front: 0
