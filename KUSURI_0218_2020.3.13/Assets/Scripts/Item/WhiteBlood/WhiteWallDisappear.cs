@@ -88,24 +88,24 @@ public class WhiteWallDisappear : MonoBehaviour
                 manager.cam.whiteBloodCam = wallCamera;
                 manager.cam.wallDestoryed = true;
             }
-            while (m.GetFloat("_Disappear1") > 0)
+            while (m.GetFloat("_Disappear") > 0)
             {
-                m.SetFloat("_Disappear1", Mathf.Lerp(m.GetFloat("_Disappear1"), 0, smooth));
+                m.SetFloat("_Disappear", Mathf.Lerp(m.GetFloat("_Disappear"), 0, smooth));
                 SetActiveCollider(gameObject, false);
                 for (int i = 0; i < objectWalls.Length; i++)
                 {
                     SetActiveCollider(objectWalls[i], false);
                 }
-                if (m.GetFloat("_Disappear1") < 0.01f)
+                if (m.GetFloat("_Disappear") < 0.01f)
                 {
                     SetActiveCustom(gameObject, false);
                     for (int i = 0; i < objectWalls.Length; i++)
                     {
                         SetActiveCustom(objectWalls[i], false);
-                        m.SetFloat("_Disappear1", 0);
+                        m.SetFloat("_Disappear", 0);
                     }
                 }
-                if(m.GetFloat("_Disappear1") < 0.3f)
+                if(m.GetFloat("_Disappear") < 0.3f)
                 {
                     if (camera)
                     {
@@ -118,7 +118,7 @@ public class WhiteWallDisappear : MonoBehaviour
         }
         else
         {
-            m.SetFloat("_Disappear1", 1);
+            m.SetFloat("_Disappear", 1);
             SetActiveCollider(gameObject, true);
             SetActiveCustom(gameObject, true);
             for (int i = 0; i < objectWalls.Length; i++)
@@ -128,7 +128,7 @@ public class WhiteWallDisappear : MonoBehaviour
             for (int i = 0; i < objectWalls.Length; i++)
             {
                 SetActiveCustom(objectWalls[i], true);
-                m.SetFloat("_Disappear1", 1);
+                m.SetFloat("_Disappear", 1);
             }
 
             yield return null;
