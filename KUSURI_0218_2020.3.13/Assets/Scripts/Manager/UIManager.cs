@@ -55,7 +55,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     Image deadFade;
 
-    [Header("PlayerState")]
+    [Header("TechUI")]
     [SerializeField]
     GameObject techUIGamePad;
     [SerializeField]

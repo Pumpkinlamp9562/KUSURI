@@ -51,7 +51,6 @@ public class CameraFollow : MonoBehaviour
     public bool wallDestoryed;
 
     Vector3 velocity = Vector3.zero;
-    Vector3 velocity2 = Vector3.zero;
     public bool restart;
     private void Awake()
     {
