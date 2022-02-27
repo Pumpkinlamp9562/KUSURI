@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class FireParticle : MonoBehaviour
 {
-    MeshFilter mesh;
+    [SerializeField] float size = 0.8f;
     AudioSource source;
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-        source = gameObject.GetComponent<AudioSource>();
         AudioClipManager audios = GameObject.FindGameObjectWithTag("GameManager").GetComponent<AudioClipManager>();
-        source = audios.vfxAudio;
+        if (gameObject.GetComponent<AudioSource>() == null)
+            source = gameObject.AddComponent<AudioSource>();
+        else
+            source = gameObject.GetComponent<AudioSource>();
+        source.outputAudioMixerGroup = audios.vfxAudio.outputAudioMixerGroup;
+        source.spatialBlend = audios.vfxAudio.spatialBlend;
+        AnimationCurve curve = audios.vfxAudio.GetCustomCurve(AudioSourceCurveType.CustomRolloff);
+        source.rolloffMode = AudioRolloffMode.Custom;
+        source.SetCustomCurve(AudioSourceCurveType.CustomRolloff, curve);
+        source.maxDistance = audios.vfxAudio.maxDistance;
         source.PlayOneShot(audios.fire, audios.fire_v);
-        mesh = GetComponent<MeshFilter>();
-        if(gameObject.transform.parent != null)
+        if(gameObject.transform.parent.gameObject != null)
         {
             if (gameObject.transform.parent.GetComponent<MeshFilter>() != null)
             {
-                mesh.mesh = gameObject.transform.parent.GetComponent<MeshFilter>().mesh;
-                for(int i = 0; i < gameObject.transform.childCount; i++)
+                GetComponent<MeshFilter>().mesh = gameObject.transform.parent.GetComponent<MeshFilter>().mesh;
+                ParticleSystem[] particle = GetComponentsInChildren<ParticleSystem>();
+                for (int i = 0; i < particle.Length; i++)
                 {
-                    gameObject.transform.GetChild(i).transform.localScale = gameObject.transform.parent.GetComponent<MeshFilter>().mesh.bounds.size/2 * 
-                        ((gameObject.transform.localScale.x + gameObject.transform.localScale.y + gameObject.transform.localScale.z)/2);
+                    particle[i].transform.localScale = gameObject.transform.parent.GetComponent<MeshFilter>().mesh.bounds.size * size;
                 }
             }
 

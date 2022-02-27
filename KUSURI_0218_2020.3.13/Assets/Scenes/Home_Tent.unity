@@ -450,7 +450,7 @@ VideoPlayer:
   m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 10
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
@@ -474,7 +474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19993688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1920, y: -1080, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1793412431}
@@ -11186,7 +11186,7 @@ RectTransform:
   m_GameObject: {fileID: 402937397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1793412431}
   m_RootOrder: 2
@@ -13817,7 +13817,7 @@ RectTransform:
   m_GameObject: {fileID: 554452634}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.01, y: 1.01, z: 1.01}
   m_Children: []
   m_Father: {fileID: 1793412431}
   m_RootOrder: 1
@@ -13825,7 +13825,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1920, y: -1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554452636
 MonoBehaviour:
@@ -29960,17 +29960,17 @@ PrefabInstance:
     - target: {fileID: 283054571700247170, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
       propertyPath: levelSpawnPoint.Array.data[5].x
-      value: 0.100434765
+      value: 0.4339624
       objectReference: {fileID: 0}
     - target: {fileID: 283054571700247170, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
       propertyPath: levelSpawnPoint.Array.data[5].y
-      value: -0.100247584
+      value: -0.12900001
       objectReference: {fileID: 0}
     - target: {fileID: 283054571700247170, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
       propertyPath: levelSpawnPoint.Array.data[5].z
-      value: 1.0192577
+      value: 1.0137525
       objectReference: {fileID: 0}
     - target: {fileID: 1011863711569318316, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
@@ -37115,7 +37115,7 @@ PrefabInstance:
     - target: {fileID: 2293553125552714422, guid: e45b27dcbcd07724fa1709051dab8def,
         type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2293553125552714422, guid: e45b27dcbcd07724fa1709051dab8def,
         type: 3}
@@ -40301,7 +40301,7 @@ RectTransform:
   - {fileID: 402937398}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.325, y: -0.008, z: -0.192}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -40336,10 +40336,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -44770,7 +44770,7 @@ PrefabInstance:
     - target: {fileID: 1049521868786726906, guid: ee36a5c138aa45b42aa814b5d3287233,
         type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1049521868786726906, guid: ee36a5c138aa45b42aa814b5d3287233,
         type: 3}

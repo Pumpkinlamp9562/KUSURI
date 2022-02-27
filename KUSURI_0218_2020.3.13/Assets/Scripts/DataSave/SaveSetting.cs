@@ -187,9 +187,19 @@ public class SaveSetting : MonoBehaviour
     {
         PlayerPrefs.SetInt("ending", 0);
         Home_Tent.ending = false;
-        data.x = -7f;
-        data.y = -0.6f;
-        data.z = -37f;
+        if(manager.scenes.activeScene == "Start_UI")
+        {
+            data.x = -7f;
+            data.y = -0.6f;
+            data.z = -37f;
+        }
+        else if(lastSavePoint != null)
+        {
+            data.x = lastSavePoint.transform.position.x;
+            data.y = lastSavePoint.transform.position.y;
+            data.z = lastSavePoint.transform.position.z;
+        }
+
 
         //material
         backpack.lightHerb = 0;

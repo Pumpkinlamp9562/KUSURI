@@ -12,7 +12,7 @@ public class CraftLineControl : MonoBehaviour
     public float posY;
     RectTransform rect;
 
-    private void Start()
+    private void OnEnable()
     {
         rect = GetComponent<RectTransform>();
         if (playOnAwake)

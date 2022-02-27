@@ -39,7 +39,7 @@ public class ScenesManager : MonoBehaviour
         {
             if((now.buildIndex == i + 1 || next.buildIndex == i + 1) && (previous.buildIndex != now.buildIndex))
             {
-                Debug.Log("Spawn Point Update");
+                Debug.Log("Spawn Point Update" + manager.save.levelSpawnPoint[i]);
                 manager.save.Save(manager.save.levelSpawnPoint[i]);
                 manager.save.LoadSave();
             }

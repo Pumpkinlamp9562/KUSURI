@@ -10890,6 +10890,7 @@ MonoBehaviour:
   ui: {fileID: 283054573030760279}
   uiSetting: {fileID: 283054573006966741}
   uiNav: {fileID: 283054573030760280}
+  audios: {fileID: 0}
 --- !u!114 &283054573030760277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10939,7 +10940,6 @@ MonoBehaviour:
   whiteSave: {fileID: 283054573030760282}
   levelSave: {fileID: 283054573030760281}
   startUI: {fileID: 1974681915}
-  loadButton: {fileID: 0}
   lastSavePoint: {fileID: 0}
 --- !u!114 &283054573030760278
 MonoBehaviour:
@@ -11061,25 +11061,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSelected: {fileID: 0}
-  item:
-  - {fileID: 11400000, guid: 673fe357499daae4b8f6332927faf152, type: 2}
-  - {fileID: 11400000, guid: 456e387a2aed7394a970a832d12e86c3, type: 2}
-  - {fileID: 11400000, guid: 9072fae74511b7c459728856869731c4, type: 2}
-  - {fileID: 11400000, guid: 7efb6eed82b642648be04396a3322c7a, type: 2}
-  - {fileID: 11400000, guid: 92c8d1159d9929240aa5c18593148f05, type: 2}
-  - {fileID: 11400000, guid: a09b2f2b0e46b6e4aa5b45097606043f, type: 2}
-  - {fileID: 11400000, guid: 35db592c353d55141960addce72d5fd5, type: 2}
-  - {fileID: 11400000, guid: 27d95392e2836e647b8f0d6c32048062, type: 2}
-  - {fileID: 11400000, guid: f5cf29c467de44047882deb0488dafb6, type: 2}
-  - {fileID: 11400000, guid: 78747687419e97f4baed27e8b1d0bcdc, type: 2}
-  - {fileID: 11400000, guid: f1587680b1c9d3747a4edc0078b06269, type: 2}
-  - {fileID: 11400000, guid: 183517b84c35af44ea0519789289eb90, type: 2}
-  - {fileID: 11400000, guid: bceb825d3e8efab46b106d152dc672c4, type: 2}
-  - {fileID: 11400000, guid: 3ac30c0f844776141b1acd69cf52cc0c, type: 2}
-  - {fileID: 11400000, guid: 6480e110aa2279540b99652841fa1fb9, type: 2}
-  - {fileID: 11400000, guid: 202a602e176567f4c896d8145df168e4, type: 2}
-  - {fileID: 11400000, guid: 894a1e68a2627c8458217a63accf6bb8, type: 2}
-  - {fileID: 11400000, guid: 59ce8f07ea8205542bed22db76026e86, type: 2}
   itemButtons:
   - {fileID: 283054573069346370}
   - {fileID: 283054572229830445}
@@ -14705,9 +14686,6 @@ MonoBehaviour:
   deceleration: 2
   maximumWalkVelocity: 0.5
   maximumRunVelocity: 2
-  rightHand: {fileID: 0}
-  leftHand: {fileID: 0}
-  normalLookAt: {fileID: 0}
   anim: {fileID: 0}
   frontAnim: 0
   backAnim: 0
@@ -15577,6 +15555,7 @@ MonoBehaviour:
   use: {fileID: 4017356377295543460}
   rigid: {fileID: 2431091153628172573}
   render: {fileID: 3971409496353385416}
+  audios: {fileID: 0}
   potionState: 
 --- !u!4 &4792491922834313287
 Transform:

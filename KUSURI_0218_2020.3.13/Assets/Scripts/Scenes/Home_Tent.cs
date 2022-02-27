@@ -27,6 +27,7 @@ public class Home_Tent : MonoBehaviour
         if (other.gameObject.name == "timebig(Clone)")
         {
             goodParticle.GetComponent<ParticleSystem>().Play();
+            disappear.WallsDisappear(false, false);
             gameObject.GetComponent<Collider>().enabled = false;
             StartCoroutine(Ending());
         }
@@ -34,7 +35,6 @@ public class Home_Tent : MonoBehaviour
         if (other.gameObject.name == "timesmall(Clone)")
         {
             badParticle.GetComponent<ParticleSystem>().Play();
-            disappear.WallsDisappear(false, false);
             gameObject.GetComponent<Collider>().enabled = false;
             StartCoroutine(Ending());
         }
