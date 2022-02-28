@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AP_River (LV3 )
+  m_Name: AP_River (LV3 ) 1
   m_Shader: {fileID: -6465566751694194690, guid: d109d3c0d3580054b83c3dfc0bc20bb6,
     type: 3}
   m_ShaderKeywords: MAIN_LIGHT_CALCULATE_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
@@ -96,7 +96,7 @@ Material:
     - _Falloff_Amount: 0.46
     - _FoamAmout: 1.26
     - _FoamCutOff: 1.12
-    - _FoamScale: 14.6
+    - _FoamScale: 1.44
     - _FoamSpeed: 0.02
     - _FresnelSize: 0.3
     - _Hue: 0
@@ -107,9 +107,9 @@ Material:
     - _NoiseScale: 4.3
     - _Noise_Scale: 4
     - _Power: 1
-    - _RefractionScale: 3.1
+    - _RefractionScale: 1.48
     - _RefractionSpeed: 0.01
-    - _RefractionStrength: 2.15
+    - _RefractionStrength: 1.69
     - _Saturation: 1
     - _Smoothness: 2
     - _TimeFactor: 2
@@ -139,7 +139,7 @@ Material:
     - _Fresnel_Color: {r: 0.9575472, g: 0.9848174, b: 1, a: 0}
     - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Shadow_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowWater: {r: 1, g: 0.2038835, b: 0, a: 0}
+    - _ShallowWater: {r: 1, g: 0.3555705, b: 0.19339621, a: 0}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 0}
     - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

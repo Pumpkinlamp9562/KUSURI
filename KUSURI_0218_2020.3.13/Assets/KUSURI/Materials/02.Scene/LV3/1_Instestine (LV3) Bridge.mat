@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2_Glowing_Plant
+  m_Name: 1_Instestine (LV3) Bridge
   m_Shader: {fileID: -6465566751694194690, guid: b920afb2dceed9a47af854e8e5c28731,
     type: 3}
   m_ShaderKeywords: MAIN_LIGHT_CALCULATE_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
@@ -35,7 +35,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: af2251989efa6fb40bdb6daa997a0236, type: 3}
+        m_Texture: {fileID: 2800000, guid: e797a2b218f80914ba286389655f7a85, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -55,6 +55,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission_Map:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -103,6 +107,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - _AlphaClip: 0
     - _AmbientStrength: 0.24
     - _Blend: 0
@@ -113,10 +118,11 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear1: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffAmount: 1
-    - _FresnelSize: 0.3
+    - _FresnelSize: 0.29
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -140,10 +146,10 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _DiffuseColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
-    - _ShadowColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+    - _FresnelColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
+    - _ShadowColor: {r: 0.36663404, g: 0.4231445, b: 0.7264151, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0}
   m_BuildTextureStacks: []

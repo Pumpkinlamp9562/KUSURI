@@ -58,6 +58,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -103,6 +107,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - _AlphaClip: 0
     - _AmbientStrength: 0.12
     - _Blend: 0
@@ -113,6 +118,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear1: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffAmount: 0.2
@@ -143,7 +149,7 @@ Material:
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
     - _FresnelColor: {r: 0.4470588, g: 0.65321, b: 1, a: 1}
-    - _ShadowColor: {r: 0.23139909, g: 0.5160105, b: 0.754717, a: 1}
+    - _ShadowColor: {r: 0.36663404, g: 0.4231445, b: 0.7264151, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.3003738, g: 0.4553106, b: 0.4716981, a: 1}
   m_BuildTextureStacks: []

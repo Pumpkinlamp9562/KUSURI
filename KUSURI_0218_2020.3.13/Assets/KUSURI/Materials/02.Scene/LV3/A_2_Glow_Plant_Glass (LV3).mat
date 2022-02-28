@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2_Glowing_Plant_Light
-  m_Shader: {fileID: -6465566751694194690, guid: b920afb2dceed9a47af854e8e5c28731,
+  m_Name: A_2_Glow_Plant_Glass (LV3)
+  m_Shader: {fileID: -6465566751694194690, guid: 783cb2ed221eddb46b3acd0537a33587,
     type: 3}
   m_ShaderKeywords: MAIN_LIGHT_CALCULATE_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
     ADDITIONAL_LIGHT_CALCULATE_SHADOWS
@@ -35,6 +35,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Map:
         m_Texture: {fileID: 2800000, guid: af2251989efa6fb40bdb6daa997a0236, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -74,6 +78,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal_Map2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -83,6 +91,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PatternTexture:
+        m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern_Texture:
         m_Texture: {fileID: 2800000, guid: 87ce03bd447ccce48bbff87ac0d8355f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -103,28 +115,40 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 0.48
     - _AlphaClip: 0
-    - _AmbientStrength: 1.16
+    - _Alphaclip: 0
+    - _AmbientStrength: 0.24
+    - _Ambient_Strength: 0.39
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _CloudFloat: 0
+    - _CloudPower: 0
+    - _CloudScale: 0.5
+    - _CloudSpeed: 0.01
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Disappear: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffAmount: 1
-    - _FresnelSize: 0.961
+    - _Falloff_Amount: 1
+    - _FresnelSize: 0.74
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Hue: 0
     - _LightingCutoff: 0
+    - _Lighting_Cutoff: 0
     - _Metallic: 0
+    - _NoiseOpacity: 1
     - _NoiseOverlay: 1
     - _NoiseScale: 7.16
+    - _Noise_Scale: 4
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -138,12 +162,18 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - Color_a2350a5c30644dddb91d24186c07a956: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 0.94613856, b: 0.6084906, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 0, g: 0.20553756, b: 1, a: 0}
-    - _ShadowColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Fresnel_Color: {r: 1, g: 0.4933105, b: 0, a: 0}
+    - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowColor: {r: 0.68301886, g: 0.8498622, b: 1, a: 1}
+    - _Shadow_Color: {r: 0.7971698, g: 0.8721638, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

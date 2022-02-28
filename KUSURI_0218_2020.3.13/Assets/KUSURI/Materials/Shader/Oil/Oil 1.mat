@@ -46,19 +46,19 @@ Material:
     - Vector1_9022df3676a94355bcb96f3210e55fdb: 0
     - Vector1_9c825104c6b94ad0953ef45e7e465839: 10
     - Vector1_ef95d81f122a4b8485b8a6494774447a: 50
-    - _Deepness: 0.45
+    - _Deepness: 0
     - _FallOffAmount: 500
     - _LightCutOff: -50
-    - _OilShape: 3
+    - _OilShape: 1.68
     - _On: 1
-    - _Smoothness: 0.14
-    - _SpecularShape: 0.25
+    - _Smoothness: -3.62
+    - _SpecularShape: 0.14
     - _Speed: 0.02
-    - _TextureScale: 18
+    - _TextureScale: 1.5
     m_Colors:
     - Color_5249ebb1ed8244148db13db01dbfa986: {r: 1, g: 1, b: 1, a: 0}
     - Color_81c2d124cccf42baa840d364662e72b4: {r: 0, g: 0, b: 0, a: 0}
     - _Alpha: {r: 1, g: 1, b: 1, a: 0}
-    - _BaseColor: {r: 0.099, g: 0.099, b: 0.099, a: 1}
+    - _BaseColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
