@@ -172,7 +172,7 @@ Material:
     - _FresnelColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
     - _Fresnel_Color: {r: 0.9575472, g: 0.9848174, b: 1, a: 0}
     - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _ShadowColor: {r: 0.36663404, g: 0.4231445, b: 0.7264151, a: 1}
+    - _ShadowColor: {r: 0.21084018, g: 0.33466497, b: 0.4339623, a: 1}
     - _Shadow_Color: {r: 0.04182982, g: 0.1155425, b: 0.1886792, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.7783019, g: 0.95508796, b: 1, a: 1}

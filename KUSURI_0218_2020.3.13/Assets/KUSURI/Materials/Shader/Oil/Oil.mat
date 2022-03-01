@@ -59,7 +59,7 @@ Material:
     - Vector1_9c825104c6b94ad0953ef45e7e465839: 10
     - Vector1_ef95d81f122a4b8485b8a6494774447a: 50
     - _AlphaCutout: 0.2
-    - _Deepness: 0.45
+    - _Deepness: 0.74
     - _Density: 1
     - _DrawOrigPolygon: 1
     - _FaceNormalFactor: 0.1
@@ -71,25 +71,25 @@ Material:
     - _Metallic: 0.5
     - _NormalScale: 0
     - _Occlusion: 0.3
-    - _OilShape: 6.17
+    - _OilShape: 0.69
     - _On: 0
     - _RandomDirection: 0.3
     - _RimLightIntensity: 0.5
     - _RimLightPower: 6
     - _ShadowExtraBias: 0
     - _Smoothness: 0.14
-    - _SpecularShape: 0.25
+    - _SpecularShape: 0.51
     - _Speed: 0.02
     - _TessFactor: 5
     - _TessMaxDist: 10
     - _TessMinDist: 1
-    - _TextureScale: 1.56
+    - _TextureScale: 1.01
     m_Colors:
     - Color_5249ebb1ed8244148db13db01dbfa986: {r: 1, g: 1, b: 1, a: 0}
     - Color_81c2d124cccf42baa840d364662e72b4: {r: 0, g: 0, b: 0, a: 0}
     - _Alpha: {r: 1, g: 1, b: 1, a: 0}
     - _AmbientColor: {r: 0, g: 0, b: 0, a: 1}
-    - _BaseColor: {r: 0.099, g: 0.099, b: 0.099, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _BaseMove: {r: 0, g: -0, b: 0, a: 3}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
     - _WindFreq: {r: 0.5, g: 0.7, b: 0.9, a: 1}

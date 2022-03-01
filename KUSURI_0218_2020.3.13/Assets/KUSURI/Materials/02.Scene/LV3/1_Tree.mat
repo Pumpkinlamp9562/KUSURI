@@ -109,7 +109,7 @@ Material:
     m_Floats:
     - Vector1_4ba3892ba06d4d0089455fb53ff03a42: 0
     - _AlphaClip: 0
-    - _AmbientStrength: 0.37
+    - _AmbientStrength: 0.19
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -122,7 +122,7 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffAmount: 1
-    - _FresnelSize: 0.176
+    - _FresnelSize: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -147,9 +147,9 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0, g: 1, b: 0.6194389, a: 1}
-    - _ShadowColor: {r: 0.36663404, g: 0.4231445, b: 0.7264151, a: 1}
+    - _ShadowColor: {r: 0.740566, g: 0.78256965, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.3003738, g: 0.4553106, b: 0.4716981, a: 1}
   m_BuildTextureStacks: []

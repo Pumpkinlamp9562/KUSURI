@@ -114,7 +114,7 @@ Material:
     - _Smoothness: 2
     - _TimeFactor: 2
     - _TotalPower: 8
-    - _WaterDepth: 9.99
+    - _WaterDepth: 3.72
     m_Colors:
     - Color_3422dfcbe5c447afb5bfd6620f23c29e: {r: 1, g: 1, b: 1, a: 1}
     - Color_76abeff900b1449fba62fc84e49838dc: {r: 1, g: 1, b: 1, a: 1}
@@ -128,7 +128,7 @@ Material:
         a: 1}
     - _BaseColor: {r: 1, g: 0.81761, b: 0.81761, a: 0}
     - _Color: {r: 0, g: 1, b: 0.7803922, a: 1}
-    - _DeepWater: {r: 0.9339623, g: 0.3945717, b: 0.2863564, a: 1}
+    - _DeepWater: {r: 1, g: 0.40273258, b: 0.2783019, a: 1}
     - _DepthColor: {r: 0.3679245, g: 0.22445707, b: 0.22445707, a: 1}
     - _DepthOffset: {r: 0, g: 0, b: 0, a: 0}
     - _DepthVector3: {r: -0.13, g: 0.12, b: -1.02, a: 0}

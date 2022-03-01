@@ -54,6 +54,7 @@ Material:
     - _Smoothness: 0.14
     - _SpecularShape: 0.25
     - _Speed: 0.02
+    - _TextureScale: 18
     m_Colors:
     - Color_5249ebb1ed8244148db13db01dbfa986: {r: 1, g: 1, b: 1, a: 0}
     - Color_81c2d124cccf42baa840d364662e72b4: {r: 0, g: 0, b: 0, a: 0}
