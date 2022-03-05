@@ -126,7 +126,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Hue: 90
+    - _Hue: 126
     - _LightingCutoff: 0
     - _Metallic: 0
     - _NoiseOverlay: 1
@@ -147,7 +147,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0.036284465, b: 0.0754717, a: 1}
     - _FresnelColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
     - _ShadowColor: {r: 0.6126121, g: 0.5991456, b: 0.6792453, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}

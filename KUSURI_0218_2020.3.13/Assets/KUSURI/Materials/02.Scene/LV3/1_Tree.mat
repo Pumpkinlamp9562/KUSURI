@@ -148,7 +148,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 0, g: 1, b: 0.6194389, a: 1}
+    - _FresnelColor: {r: 0, g: 1, b: 0.48640537, a: 1}
     - _ShadowColor: {r: 0.740566, g: 0.78256965, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.3003738, g: 0.4553106, b: 0.4716981, a: 1}

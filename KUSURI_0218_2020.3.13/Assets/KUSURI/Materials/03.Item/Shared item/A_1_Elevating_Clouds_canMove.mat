@@ -197,10 +197,10 @@ Material:
     - _Diffuse_Color: {r: 0.78679246, g: 0.9658867, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Fresnel_Color: {r: 0, g: 0.6345382, b: 1, a: 0}
+    - _Fresnel_Color: {r: 0, g: 0.63529444, b: 1, a: 0}
     - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
     - _ShadowColor: {r: 0.47547168, g: 0.74782294, b: 1, a: 1}
-    - _Shadow_Color: {r: 0.7122642, g: 0.85664785, b: 1, a: 1}
+    - _Shadow_Color: {r: 0.5613208, g: 0.7776557, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.509434, g: 0.48780707, b: 0.48780707, a: 1}
     - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}

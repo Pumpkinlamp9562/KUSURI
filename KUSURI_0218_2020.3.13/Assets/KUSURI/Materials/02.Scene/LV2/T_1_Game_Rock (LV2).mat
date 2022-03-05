@@ -193,7 +193,7 @@ Material:
     - Color_cf5186203b3e456b8496d134c338d332: {r: 0.9150943, g: 0.7345278, b: 0.41869882,
         a: 0}
     - _BaseColor: {r: 1, g: 0.9800798, b: 0.6761006, a: 1}
-    - _Base_Color: {r: 0.6666667, g: 1, b: 0.9368432, a: 0}
+    - _Base_Color: {r: 0.6666667, g: 0.9849437, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0}
     - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
