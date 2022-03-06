@@ -721,7 +721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cantDestory: 1
   canBurn: 0
-  potionTime: 5
+  potionTime: 10
   emisstion: {r: 255, g: 255, b: 255, a: 0.7}
   render: []
 --- !u!54 &3337956529293273385
@@ -1000,7 +1000,7 @@ PrefabInstance:
     - target: {fileID: 7773753241741399446, guid: 22913dd040172f74dae986bb5dc5aa80,
         type: 3}
       propertyPath: speed
-      value: 0.002
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7773753241741399446, guid: 22913dd040172f74dae986bb5dc5aa80,
         type: 3}
