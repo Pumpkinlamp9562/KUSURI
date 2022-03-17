@@ -372,6 +372,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 389302001066669619, guid: 50d16ba727975794fa3b020d3019da09,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 389302001066669619, guid: 50d16ba727975794fa3b020d3019da09,
+        type: 3}
       propertyPath: whiteBloodWall
       value: 
       objectReference: {fileID: 2181193149799273226}
@@ -379,6 +384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WhiteBloodCore0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446649046450176294, guid: 50d16ba727975794fa3b020d3019da09,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 446649046450176295, guid: 50d16ba727975794fa3b020d3019da09,
         type: 3}

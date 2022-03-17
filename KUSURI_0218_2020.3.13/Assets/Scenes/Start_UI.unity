@@ -10813,6 +10813,7 @@ GameObject:
   - component: {fileID: 283054573030760280}
   - component: {fileID: 283054573030760282}
   - component: {fileID: 283054573030760281}
+  - component: {fileID: 283054573030760283}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -10890,7 +10891,7 @@ MonoBehaviour:
   ui: {fileID: 283054573030760279}
   uiSetting: {fileID: 283054573006966741}
   uiNav: {fileID: 283054573030760280}
-  audios: {fileID: 0}
+  audios: {fileID: 283054573030760283}
 --- !u!114 &283054573030760277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11144,6 +11145,54 @@ MonoBehaviour:
   whiteBloodCore: []
   coreTrans: []
   save: {fileID: 283054573030760277}
+--- !u!114 &283054573030760283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283054573030760273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a25bab398d932a042b19357aa8d1bf96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfxAudio: {fileID: 1898276288}
+  pitchRandom: 1
+  footstep: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  footstep_v: 0
+  jump: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  jump_v: 0
+  throwPotion: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  throwPotion_v: 0
+  drinkPotion: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  drinkPotion_v: 0
+  cell: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  cell_v: 0
+  core: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  core_v: 0
+  grow_big: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  grow_big_v: 0
+  growBack_big: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  growBack_big_v: 0
+  grow_small: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  grow_small_v: 0
+  growBack_small: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  growBack_small_v: 0
+  fire: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  fire_v: 0
+  water: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  water_v: 0
+  mushroom: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  mushroom_v: 0
+  openUI: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  openUI_v: 0
+  button: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  button_v: 0
+  crafting: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  crafting_v: 0
+  craftDone: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+  craftDone_v: 0
 --- !u!114 &283054573030760360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14716,6 +14765,7 @@ GameObject:
   - component: {fileID: 4017356377295543460}
   - component: {fileID: 2431091153628172573}
   - component: {fileID: 5199585147707811481}
+  - component: {fileID: 3277935909656090343}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -14735,11 +14785,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8edf500a1f8a29e449b72186da8bb367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 1
+  walkSpeed: 0
   runSpeed: 2
   speedSmoothTime: 1
   turnSmoothTime: 0.1
-  speed: 1
+  speed: 0
   jumpForce: 4
   groundChecker: {fileID: 2431091154483842440}
   stairMaxHeight: 0.4
@@ -14755,6 +14805,18 @@ MonoBehaviour:
   upper: {fileID: 2093913205984054618}
   lower: {fileID: 6940639766410602505}
   readyJump: 0
+--- !u!114 &3277935909656090343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3277935909656090341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ebee5e74ba1d542ae30f0a793652b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3277935910758009803
 GameObject:
   m_ObjectHideFlags: 0
