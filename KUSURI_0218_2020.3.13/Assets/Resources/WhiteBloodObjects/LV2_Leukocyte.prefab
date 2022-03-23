@@ -718,6 +718,7 @@ MonoBehaviour:
   speedInNeed: 5
   coreRigidbodyMass: 0.5
   bone: []
+  manager: {fileID: 0}
 --- !u!136 &1444443733
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1909,6 +1910,7 @@ MonoBehaviour:
   speedInNeed: 5
   coreRigidbodyMass: 0.5
   bone: []
+  manager: {fileID: 0}
 --- !u!136 &1614722300591718428
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3469,6 +3471,7 @@ MonoBehaviour:
   speedInNeed: 5
   coreRigidbodyMass: 0.5
   bone: []
+  manager: {fileID: 0}
 --- !u!136 &4979760484955852211
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3987,6 +3990,7 @@ MonoBehaviour:
   speedInNeed: 5
   coreRigidbodyMass: 0.5
   bone: []
+  manager: {fileID: 0}
 --- !u!136 &6521877933173438176
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4546,6 +4550,7 @@ MonoBehaviour:
   speedInNeed: 5
   coreRigidbodyMass: 0.5
   bone: []
+  manager: {fileID: 0}
 --- !u!136 &7529603295139501876
 CapsuleCollider:
   m_ObjectHideFlags: 0

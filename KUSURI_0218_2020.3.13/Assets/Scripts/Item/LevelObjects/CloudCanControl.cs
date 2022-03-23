@@ -31,10 +31,10 @@ public class CloudCanControl : MonoBehaviour
         if (move && objectCount <= 0 && playerIn)
         {
             if (Vector3.Distance(gameObject.transform.position, targetPos) > 0.01f)
-                gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, targetPos, speed);
+                gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, targetPos, speed*Time.deltaTime);
         }
         else if(Vector3.Distance(gameObject.transform.position, originPos) > 0.01f)
-            gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, originPos, speed);
+            gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, originPos, speed*Time.deltaTime);
     }
 
     private void OnTriggerStay(Collider other)

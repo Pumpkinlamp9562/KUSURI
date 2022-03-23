@@ -9524,7 +9524,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783341077}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10, y: 2.366239, z: 30.922201}
@@ -13737,27 +13737,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'New Text - XXX
-
-    New Text - XXX
-
-    New Text - XXX
-
-    New Text -
-    XXX
-
-    New Text - XXX
-
-    New Text - XXX
-
-    Special Thanks
-
-    Nana BOT
-
-    New
-    Text - XXX
-
-    New Text - XXX'
+  m_Text: "Teacher  \n\nCliff Liu\n\n\nTeam\n\n\rGame\u3000Script\u3000GUA\nGame\u3000Art\u3000KAO\nLevel\u3000Designer\u3000Veikan\nGame\u3000Planner\u3000Li\n\n\nSpecial
+    Thanks\n\nNana BOT\nMisiyaest\nNoborl\nBu Bu\nPolar Bear\nMaikun05\nAkatsuki\nPenguin\nBroccoli\nYAN\nXsin
+    Yu\nClearsky5201314\nMeer Lon\nShi Shi"
 --- !u!222 &1156364681
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19217,6 +19199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300303249345266377, guid: e2b6269a8d829444b81575e23ddc1765,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8300303249345266377, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}

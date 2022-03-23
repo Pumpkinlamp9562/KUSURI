@@ -158,7 +158,7 @@ public class GrowGroupControl : MonoBehaviour
     {
         while (Mathf.Abs(growMeshes[i].material.GetFloat("_Grow")-target) > 0.01f)
         {
-            growMeshes[i].material.SetFloat("_Grow", Mathf.Lerp(growMeshes[i].material.GetFloat("_Grow"), target, smooth));
+            growMeshes[i].material.SetFloat("_Grow", Mathf.Lerp(growMeshes[i].material.GetFloat("_Grow"), target, smooth*Time.deltaTime));
             yield return new WaitForSeconds(0);
         }
     }

@@ -11,9 +11,9 @@ public class WhiteBloodCell : MonoBehaviour
     public Collider[] bone;
 
     float totalWeight;
-    GameManager manager;
+    [SerializeField]GameManager manager;
 
-    private void Start()
+    private void Awake()
     {
         bone = gameObject.GetComponentsInChildren<CapsuleCollider>();
         manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();

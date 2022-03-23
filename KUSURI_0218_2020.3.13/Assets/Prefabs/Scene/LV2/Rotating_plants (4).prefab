@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bigPlant: 0
-  smooth: 0.001
+  smooth: 0.00005
   grow: 0
 --- !u!114 &6717153386109247159
 MonoBehaviour:
