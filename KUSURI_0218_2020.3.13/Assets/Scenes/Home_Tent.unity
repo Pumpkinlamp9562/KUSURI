@@ -30462,7 +30462,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
+      objectReference: {fileID: 8300000, guid: 32c296d1a55230a4091fd34b363033d0, type: 3}
     - target: {fileID: 8462026541467357281, guid: e2b6269a8d829444b81575e23ddc1765,
         type: 3}
       propertyPath: m_LocalScale.x
