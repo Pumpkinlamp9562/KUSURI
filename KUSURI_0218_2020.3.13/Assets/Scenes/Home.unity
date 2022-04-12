@@ -13878,15 +13878,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\" The Cure \"\r\n\r\n.\r\n\r\n-Game Director-\r\nLi, Yuet-Tung, Adelaide\r\n\r\n-Producer-\r\nChen,
-    Ting-Li\r\n\r\n.\r\n\r\n-Programmer-\r\nLi, Yuet-Tung, Adelaide\r\n\r\n-Graphics-\r\nKao,
-    Chun-Chin\r\n\r\n-UI Design-\r\nChen, Ting-Li\r\n\r\n-VFX Design-\r\nLi, Yuet-Tung,
-    Adelaide\r\n\r\n.\r\n\r\n-Game Design-\r\nChang, Ya-Yu\r\n\r\n-Testing--\r\nChang,
-    Ya-Yu\r\nChen, Ting-Li\r\n\r\n.\r\n\r\n-Story-\r\nKao, Chun-Chin\r\n\r\n-Cutscene-\r\nKao,
-    Chun-Chin\r\n\r\n-Music & Sound-\r\nChen, Ting-Li\r\nKao, Chun-Chin\r\n\r\n.\r\n\r\n-Supervisor-\r\nCliff
-    Liu\r\n\r\n.\r\n\r\n-Special Thanks (A-Z)-\r\nAkatsuki\r\nBu Bu\r\nBroccoli\r\nClearsky5201314\r\nMaikun05\r\nMeer
-    Lon\r\nMisiyaest\r\nNana BOT\r\nNoborl\r\nPenguin\r\nPolar Bear\r\nShi Shi\r\nXsin
-    Yu\r\nYAN \r\n\r\n.\r\n\r\nThank You For Playing !!\r\n\r\n."
+  m_Text: "\u300A The Cure \u300B\n\r\n.\r\n\r\n-Game Director-\r\nLi, Yuet-Tung,
+    Adelaide\r\n\r\n-Producer-\r\nChen, Ting-Li\r\n\r\n.\r\n\r\n-Programmer-\r\nLi,
+    Yuet-Tung, Adelaide\r\n\r\n-Graphics-\r\nKao, Chun-Chin\r\n\r\n-UI Design-\r\nChen,
+    Ting-Li\r\n\r\n-VFX Design-\r\nLi, Yuet-Tung, Adelaide\r\n\r\n.\r\n\r\n-Game
+    Design-\r\nChang, Ya-Yu\r\n\r\n-Testing--\r\nChang, Ya-Yu\r\nChen, Ting-Li\r\n\r\n.\r\n\r\n-Story-\r\nKao,
+    Chun-Chin\r\n\r\n-Cutscene-\r\nKao, Chun-Chin\r\n\r\n-Music & Sound-\r\nChen,
+    Ting-Li\r\nKao, Chun-Chin\r\n\r\n.\r\n\r\n-Supervisor-\r\nCliff Liu\r\n\r\n.\r\n\r\n-Special
+    Thanks (A-Z)-\r\nAkatsuki\r\nBu Bu\r\nBroccoli\r\nClearsky5201314\r\nMaikun05\r\nMeer
+    Lon\r\nMisiyaest\r\nMike\nNana BOT\r\nNoborl\r\nPenguin\r\nPolar Bear\r\nShi
+    Shi\r\nTeckel\nHo,Cheng-Chieh\nXsin Yu\r\nYAN \n\n.\r\n\r\nThank You For Playing
+    !!\r\n\r\n."
 --- !u!222 &1156364681
 CanvasRenderer:
   m_ObjectHideFlags: 0
