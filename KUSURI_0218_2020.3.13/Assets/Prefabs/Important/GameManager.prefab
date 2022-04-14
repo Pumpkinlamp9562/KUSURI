@@ -154,7 +154,6 @@ MonoBehaviour:
   whiteSave: {fileID: 1584181887701930383}
   levelSave: {fileID: 3938556183986448087}
   startUI: {fileID: 0}
-  loadButton: {fileID: 0}
   lastSavePoint: {fileID: 0}
 --- !u!114 &1584181887701930383
 MonoBehaviour:
@@ -214,25 +213,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSelected: {fileID: 0}
-  item:
-  - {fileID: 11400000, guid: 673fe357499daae4b8f6332927faf152, type: 2}
-  - {fileID: 11400000, guid: 456e387a2aed7394a970a832d12e86c3, type: 2}
-  - {fileID: 11400000, guid: 9072fae74511b7c459728856869731c4, type: 2}
-  - {fileID: 11400000, guid: 7efb6eed82b642648be04396a3322c7a, type: 2}
-  - {fileID: 11400000, guid: 92c8d1159d9929240aa5c18593148f05, type: 2}
-  - {fileID: 11400000, guid: a09b2f2b0e46b6e4aa5b45097606043f, type: 2}
-  - {fileID: 11400000, guid: 35db592c353d55141960addce72d5fd5, type: 2}
-  - {fileID: 11400000, guid: 27d95392e2836e647b8f0d6c32048062, type: 2}
-  - {fileID: 11400000, guid: f5cf29c467de44047882deb0488dafb6, type: 2}
-  - {fileID: 11400000, guid: 78747687419e97f4baed27e8b1d0bcdc, type: 2}
-  - {fileID: 11400000, guid: f1587680b1c9d3747a4edc0078b06269, type: 2}
-  - {fileID: 11400000, guid: 183517b84c35af44ea0519789289eb90, type: 2}
-  - {fileID: 11400000, guid: bceb825d3e8efab46b106d152dc672c4, type: 2}
-  - {fileID: 11400000, guid: 3ac30c0f844776141b1acd69cf52cc0c, type: 2}
-  - {fileID: 11400000, guid: 6480e110aa2279540b99652841fa1fb9, type: 2}
-  - {fileID: 11400000, guid: 202a602e176567f4c896d8145df168e4, type: 2}
-  - {fileID: 11400000, guid: 894a1e68a2627c8458217a63accf6bb8, type: 2}
-  - {fileID: 11400000, guid: 59ce8f07ea8205542bed22db76026e86, type: 2}
   itemButtons:
   - {fileID: 0}
   - {fileID: 0}
@@ -478,37 +458,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxAudio: {fileID: 0}
   pitchRandom: 1.5
-  footstep: {fileID: 8300000, guid: f6781fc8647f77a43a867cab45bbfa59, type: 3}
-  footstep_v: 0.194
-  jump: {fileID: 8300000, guid: 06e6bd963f80e3844991d37e3d0dc745, type: 3}
+  footstep: {fileID: 8300000, guid: 7c995762b3b60c547bc5b1b08267d503, type: 3}
+  footstep_v: 0.032
+  jump: {fileID: 8300000, guid: fa49e59302fffb14abbe8b8e54d2c63c, type: 3}
   jump_v: 1
-  throwPotion: {fileID: 8300000, guid: 7a716f6531ce11f42b9a5685f117fa1d, type: 3}
+  throwPotion: {fileID: 8300000, guid: 427a10efb7f54004f8736023b032b1e6, type: 3}
   throwPotion_v: 1
-  drinkPotion: {fileID: 8300000, guid: e9c134b9263aa45428a7261710ce9cba, type: 3}
+  drinkPotion: {fileID: 8300000, guid: adf5767cf1f90ae45b19a5df9ef05d82, type: 3}
   drinkPotion_v: 1
-  cell: {fileID: 8300000, guid: f464ba734fe37ca489affcb6f109cae7, type: 3}
+  cell: {fileID: 8300000, guid: 0491c80f67ef09648956c0a1287c13d7, type: 3}
   cell_v: 1
-  core: {fileID: 8300000, guid: 1a99200fccf909541b144152873d79c3, type: 3}
+  core: {fileID: 8300000, guid: 039eb75b36ceea3419368c28d781361f, type: 3}
   core_v: 1
-  grow_big: {fileID: 8300000, guid: 6b1c97cb3999d524d98e9e9c6676a60f, type: 3}
+  grow_big: {fileID: 8300000, guid: f27ba1a3f840411449e6ec21e812a65a, type: 3}
   grow_big_v: 1
-  growBack_big: {fileID: 8300000, guid: 30f7274aa38c9ba46985c637f6effd8f, type: 3}
+  growBack_big: {fileID: 8300000, guid: f27594ec05a69bd4386f39871a012ac6, type: 3}
   growBack_big_v: 1
-  grow_small: {fileID: 8300000, guid: b745974ef44977647b1def4a4d0886a3, type: 3}
+  grow_small: {fileID: 8300000, guid: 7f331d41c7e187c4fa05a5f815746fb4, type: 3}
   grow_small_v: 1
-  growBack_small: {fileID: 8300000, guid: 52171c6d2a9000643bc1fd8360c39774, type: 3}
+  growBack_small: {fileID: 8300000, guid: f27594ec05a69bd4386f39871a012ac6, type: 3}
   growBack_small_v: 1
-  fire: {fileID: 8300000, guid: 474a1f31cc3a5d74cb7ebc4d748499a7, type: 3}
+  fire: {fileID: 8300000, guid: 023fc55599cab8842bbeed4a38e468ea, type: 3}
   fire_v: 1
-  water: {fileID: 8300000, guid: 5512cfbce5985494a98f141fcfc647e5, type: 3}
+  water: {fileID: 8300000, guid: bd536a5dd1569484a9ca4649e1a7a964, type: 3}
   water_v: 1
   mushroom: {fileID: 8300000, guid: 00306e850d39e584a9c1d1425997f03f, type: 3}
   mushroom_v: 1
-  openUI: {fileID: 8300000, guid: c6283d2898cc65d45b43052ee8364033, type: 3}
+  openUI: {fileID: 8300000, guid: 6d2921194f5f8ad48a7e75ad9cc05352, type: 3}
   openUI_v: 1
-  button: {fileID: 8300000, guid: 1dac86f9776b5594fb7f59fef788e642, type: 3}
+  button: {fileID: 8300000, guid: 82e91ca4bd8d4c44b87aa34b5583155c, type: 3}
   button_v: 1
-  crafting: {fileID: 8300000, guid: 5107628e4ddcfc84ca71b8163531c51b, type: 3}
+  crafting: {fileID: 8300000, guid: 134587fc34448414fbdab55ccebcbde4, type: 3}
   crafting_v: 1
-  craftDone: {fileID: 8300000, guid: 1e49142814becec41b086529c91ae815, type: 3}
+  craftDone: {fileID: 8300000, guid: 1c5ca300f331d224a8701eaa37674036, type: 3}
   craftDone_v: 1
