@@ -60,6 +60,12 @@ public class WhiteBloodCell : MonoBehaviour
     public void DestoryAndHaveChlid()
     {
         manager.audios.vfxAudio.PlayOneShot(manager.audios.cell, manager.audios.cell_v);
+        GameObject clone = Instantiate(manager.effect.whiteBlood, gameObject.transform);
+        ParticleSystem[] p = clone.GetComponentsInChildren<ParticleSystem>();
+        for (int i = 0; i < p.Length; i++) 
+        {
+            p[i].Play();
+        }
         if (GetComponentInChildren<WhiteBloodCore>() != null)
         {//Add Disappear Shader IEnumerator
             foreach (CapsuleCollider c in bone)

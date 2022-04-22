@@ -1,3 +1,0 @@
-Grass in the grass folder (Grass 3,4 and 5) are supplied by turboscalpeur and can be used in personal projects.
-Visit his forum and asset store page for the full package: https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:12027
-http://forum.unity3d.com/threads/turboscalpeurs-grass-forum.395638

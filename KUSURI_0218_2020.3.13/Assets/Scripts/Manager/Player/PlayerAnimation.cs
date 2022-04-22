@@ -208,6 +208,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         anim.SetBool ("PickUp",false);
         anim.SetBool("PickUp", true);
+        manager.audios.vfxAudio.PlayOneShot(manager.audios.pick,manager.audios.pick_v);
     }
 
     public void PickUpEnd()

@@ -11,6 +11,7 @@ public class Home_Tent : MonoBehaviour
     [SerializeField] GameObject goodParticle;
     [SerializeField] GameObject badParticle;
     [SerializeField] float endSeconds = 5f;
+    [SerializeField] float particleSeconds = 3f;
 
     GameManager manager;
 
@@ -29,17 +30,22 @@ public class Home_Tent : MonoBehaviour
             goodParticle.GetComponent<ParticleSystem>().Play();
             disappear.WallsDisappear(false, false);
             gameObject.GetComponent<Collider>().enabled = false;
-            StartCoroutine(Ending());
+            goodParticle.GetComponentInChildren<UIFade>().FadeInOut(1);
         }
 
         if (other.gameObject.name == "timesmall(Clone)")
         {
             badParticle.GetComponent<ParticleSystem>().Play();
             gameObject.GetComponent<Collider>().enabled = false;
-            StartCoroutine(Ending());
+            badParticle.GetComponentInChildren<UIFade>().FadeInOut(1);
         }
     }
-
+    public void End()
+    {
+        StartCoroutine(Ending());
+        Destroy(badParticle.GetComponentInChildren<UIFade>());
+        Destroy(goodParticle.GetComponentInChildren<UIFade>());
+    }
     private void AfterVideo(object sender, EventArgs e)
     {
         MyEventArgs m = (MyEventArgs)e;
@@ -61,4 +67,5 @@ public class Home_Tent : MonoBehaviour
         ending = true;
         manager.scenes.ChangeScene("Home");
     }
+
 }

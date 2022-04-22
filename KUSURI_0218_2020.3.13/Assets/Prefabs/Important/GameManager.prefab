@@ -458,6 +458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxAudio: {fileID: 0}
   pitchRandom: 1.5
+  pick: {fileID: 8300000, guid: babfcc6b7ee51054293e55f0903dee36, type: 3}
+  pick_v: 1
   footstep: {fileID: 8300000, guid: 7c995762b3b60c547bc5b1b08267d503, type: 3}
   footstep_v: 0.032
   jump: {fileID: 8300000, guid: fa49e59302fffb14abbe8b8e54d2c63c, type: 3}
@@ -482,7 +484,7 @@ MonoBehaviour:
   fire_v: 1
   water: {fileID: 8300000, guid: bd536a5dd1569484a9ca4649e1a7a964, type: 3}
   water_v: 1
-  mushroom: {fileID: 8300000, guid: 00306e850d39e584a9c1d1425997f03f, type: 3}
+  mushroom: {fileID: 8300000, guid: 16fc8ac4fc8180c4d8fe998d556a5980, type: 3}
   mushroom_v: 1
   openUI: {fileID: 8300000, guid: 6d2921194f5f8ad48a7e75ad9cc05352, type: 3}
   openUI_v: 1

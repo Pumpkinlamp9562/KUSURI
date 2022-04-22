@@ -73,19 +73,14 @@ public class PotionMouseOn : MonoBehaviour
                     manager.cam.PotionCamera(0);
                     fixedUpdate = false;
                     fixedUpdate1 = false;
-                    for (int i = 0; i < hitObjects.Count; i++)
-                    {
-                        if (hitObjects[i] != null)
-                        {
-                            if ((hitObjects[i].GetComponent<Outline>()) != null)
-                            Destroy(hitObjects[i].GetComponent<Outline>());
-                            hitObjects.Remove(hitObjects[i]);
-                        }
-                    }
+                    CancelOutline();
                     mouseOn = false;
                 }
-                if (manager.input.cancel) Cancelthrown();
-
+                if (manager.input.cancel)
+                {
+                    CancelOutline();
+                    Cancelthrown();
+                }
             }
             else
             {
@@ -144,7 +139,18 @@ public class PotionMouseOn : MonoBehaviour
             }
         }
     }
-
+    void CancelOutline()
+    {
+        for (int i = 0; i < hitObjects.Count; i++)
+        {
+            if (hitObjects[i] != null)
+            {
+                if ((hitObjects[i].GetComponent<Outline>()) != null)
+                    Destroy(hitObjects[i].GetComponent<Outline>());
+                hitObjects.Remove(hitObjects[i]);
+            }
+        }
+    }
     public void Cancelthrown()
     {
         if(thrown != null)

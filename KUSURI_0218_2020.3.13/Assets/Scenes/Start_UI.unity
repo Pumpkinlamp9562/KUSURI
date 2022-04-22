@@ -13397,6 +13397,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxAudio: {fileID: 1898276288}
   pitchRandom: 1
+  pick: {fileID: 0}
+  pick_v: 1
   footstep: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}
   footstep_v: 0
   jump: {fileID: 8300000, guid: a27e90afed4689c478dcc405f8cd3673, type: 3}

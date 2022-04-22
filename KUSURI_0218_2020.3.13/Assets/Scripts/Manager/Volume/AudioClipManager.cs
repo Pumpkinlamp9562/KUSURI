@@ -9,6 +9,9 @@ public class AudioClipManager : MonoBehaviour
     [Range(1,2)]
     public float pitchRandom = 1.5f;
     [Header("Player")]
+    public AudioClip pick;
+    [Range(0,1)]
+    public float pick_v = 1;
     public AudioClip footstep;
     [Range(0,1)]
     public float footstep_v = 1;

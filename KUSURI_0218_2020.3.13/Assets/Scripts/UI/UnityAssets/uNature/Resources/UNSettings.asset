@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623fb76d8904b26489db33c015dc0a5c, type: 3}
+  m_Name: UNSettings
+  m_EditorClassIdentifier: 
+  UN_TreeInstancesRespawnsEnabled: 0
+  UN_Networking_Auth: 1
+  UN_TreeInstancesRespawnsTime: 1
+  UN_Threading_Enabled: 1
+  UN_Threading_WorkersCount: 1
+  UN_Debugging_Enabled: 0
+  UN_Console_Debugging_Enabled: 0
+  UN_Foliage_Disable_Culling: 0
+  UN_GUI_SKIN: 0

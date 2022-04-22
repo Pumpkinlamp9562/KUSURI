@@ -7754,7 +7754,7 @@
     },
     "m_Name": "Disappear",
     "m_DefaultReferenceName": "Vector1_62887645bd3b41dc97dc8d020f616565",
-    "m_OverrideReferenceName": "_Disappear1",
+    "m_OverrideReferenceName": "_Disappear",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
