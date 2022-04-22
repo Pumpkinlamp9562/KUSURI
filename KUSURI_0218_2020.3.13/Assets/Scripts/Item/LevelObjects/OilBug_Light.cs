@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class OilBug_Light : MonoBehaviour
 {
-    [SerializeField] GameObject[] oilBugs;
+    public List<GameObject> oilBugs = new List<GameObject>();
 
     private void OnEnable()
     {
-        for(int i = 0; i< oilBugs.Length; i++)
+        Debug.Log(gameObject);
+        for(int i = 0; i< oilBugs.Count; i++)
         {
             oilBugs[i].GetComponent<OilBug>().target = gameObject;
             oilBugs[i].GetComponent<OilBug>().agent.enabled = true;
@@ -18,7 +19,7 @@ public class OilBug_Light : MonoBehaviour
 
     private void OnDisable()
     {
-        for (int i = 0; i < oilBugs.Length; i++)
+        for (int i = 0; i < oilBugs.Count; i++)
         {
             oilBugs[i].GetComponent<OilBug>().target = null;
             oilBugs[i].GetComponent<OilBug>().agent.enabled = false;
