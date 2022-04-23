@@ -76,7 +76,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000009210781, y: 0.83450425, z: -0.00000050198287}
+  m_ConnectedAnchor: {x: 0.000005347654, y: 0.83450305, z: 0.0000013848767}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -175,7 +175,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000006619841, y: 0.48801622, z: 0.0000011383132}
+  m_ConnectedAnchor: {x: 0.000011922792, y: 0.48801896, z: 0.0000033660367}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -873,7 +873,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000003911555, y: 0.64190525, z: 0.0000006246776}
+  m_ConnectedAnchor: {x: 0.0000010803342, y: 0.6419061, z: -0.00000023213912}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -1173,7 +1173,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000004094094, y: 0.6162293, z: 0.000000263922}
+  m_ConnectedAnchor: {x: -0.00000067427754, y: 0.616229, z: -0.0000010380669}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -1626,7 +1626,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 164f67f4ca46eac409436a4ad221e2f9, type: 2}
+  - {fileID: 2100000, guid: d4563d97e2b6169458cab0ac4b2a7c28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1894,7 +1894,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000000721775, y: 0.6868392, z: -0.00000055134296}
+  m_ConnectedAnchor: {x: 0.000010510907, y: 0.68684036, z: 0.0000027273782}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -1994,7 +1994,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000010020411, y: -3.1600013, z: -0.0014712511}
+  m_ConnectedAnchor: {x: -0.0000014691385, y: -3.1600013, z: -0.0014710216}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -2048,8 +2048,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8731685666896509256}
   m_LocalRotation: {x: -0.011998007, y: 0.9838525, z: 0.049527153, w: -0.17157337}
-  m_LocalPosition: {x: 17.558908, y: -27.25, z: 231.19}
-  m_LocalScale: {x: 2.8551948, y: 2.8551867, z: 2.8551867}
+  m_LocalPosition: {x: 16.93, y: -30.24, z: 230.63}
+  m_LocalScale: {x: 2.0214257, y: 2.0214198, z: 2.0214198}
   m_Children:
   - {fileID: 2863167534846404238}
   m_Father: {fileID: 1495737871268849532}
@@ -2074,7 +2074,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 164f67f4ca46eac409436a4ad221e2f9, type: 2}
+  - {fileID: 2100000, guid: d4563d97e2b6169458cab0ac4b2a7c28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
